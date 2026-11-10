@@ -1,0 +1,53 @@
+{
+  "official_table_comparisons": [
+    {
+      "cycle": 1,
+      "metric": "lonely",
+      "official_rounded_numerator": 30161689.0,
+      "puf_numerator": 30161688.462849,
+      "official_rounded_valid_denominator": 226273825.0,
+      "puf_valid_denominator": 226273824.746215,
+      "numerator_abs_difference": 0.537151001393795,
+      "denominator_abs_difference": 0.25378501415252686,
+      "pass_within_3_persons_rounding": true
+    },
+    {
+      "cycle": 1,
+      "metric": "lack_support",
+      "official_rounded_numerator": 91096199.0,
+      "puf_numerator": 91096199.035161,
+      "official_rounded_valid_denominator": 226270904.0,
+      "puf_valid_denominator": 226270903.775708,
+      "numerator_abs_difference": 0.03516100347042084,
+      "denominator_abs_difference": 0.22429201006889343,
+      "pass_within_3_persons_rounding": true
+    },
+    {
+      "cycle": 9,
+      "metric": "lonely",
+      "official_rounded_numerator": 32432764.0,
+      "puf_numerator": 32432763.4841,
+      "official_rounded_valid_denominator": 248747199.0,
+      "puf_valid_denominator": 248747199.189611,
+      "numerator_abs_difference": 0.5159000009298325,
+      "denominator_abs_difference": 0.18961098790168762,
+      "pass_within_3_persons_rounding": true
+    },
+    {
+      "cycle": 9,
+      "metric": "lack_support",
+      "official_rounded_numerator": 102072915.0,
+      "puf_numerator": 102072915.080368,
+      "official_rounded_valid_denominator": 248674152.0,
+      "puf_valid_denominator": 248674152.329575,
+      "numerator_abs_difference": 0.08036799728870392,
+      "denominator_abs_difference": 0.3295750021934509,
+      "pass_within_3_persons_rounding": true
+    }
+  ],
+  "aggregate_keys_unique": true,
+  "percentages_in_bounds": true,
+  "suppressed_numerators_removed": true,
+  "denominator_counts_reconcile": true,
+  "no_respondent_identifiers_in_exported_data": true
+}

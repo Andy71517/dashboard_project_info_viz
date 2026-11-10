@@ -1,0 +1,30 @@
+{
+  "raw_hps_rows": 610755,
+  "selected_bls_nsa_long_rows": 15912,
+  "combined_raw_rows_without_double_counting_adjusted_version": 626667,
+  "hps_aggregate_rows": 8892,
+  "bls_monthly_rows": 7344,
+  "bls_annual_rows": 306,
+  "joined_rows": 459,
+  "unmatched_left": 0,
+  "unmatched_right": 0,
+  "automated_spotcheck_cases": 20,
+  "automated_spotcheck_passed": 20,
+  "manual_team_review": "Pending",
+  "cleaning_decisions": 208,
+  "validation_checks": 216,
+  "validation_failures": 0,
+  "charts": 6,
+  "focus_cycle": 9,
+  "state_spearman_descriptive": 0.0955656108597285,
+  "midpoint_spearman_descriptive": 0.12980325835846404,
+  "max_alignment_difference_pp": 0.476004677883016,
+  "jurisdictions_rate_at_or_below_2019": 21,
+  "runtime": "local Python when validated by the author; rerun in your own Colab session",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,217 @@
+check,passed,detail
+HPS_Phase4Cycle01_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_00_01_puf.csv', 'hps_04_00_01_repwgt_puf.csv']"
+HPS cycle 1 count,True,68544
+HPS cycle 1 single cycle,True,1
+HPS cycle 1 unique nonmissing keys,True,0
+HPS cycle 1 geography,True,50 states + DC
+HPS cycle 1 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 1 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 1 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 1 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 1 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 1 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 1 age range,True,18 to 88
+HPS cycle 1 replicate columns,True,80
+HPS cycle 1 unique replicate keys,True,68544
+HPS cycle 1 weight join,True,0
+HPS cycle 1 finite positive person weights,True,68544
+HPS cycle 1 finite nonnegative replicate weights,True,"(68544, 80)"
+HPS_Phase4Cycle02_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_00_02_puf.csv', 'hps_04_00_02_repwgt_puf.csv']"
+HPS cycle 2 count,True,71152
+HPS cycle 2 single cycle,True,2
+HPS cycle 2 unique nonmissing keys,True,0
+HPS cycle 2 geography,True,50 states + DC
+HPS cycle 2 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 2 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 2 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 2 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 2 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 2 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 2 age range,True,18 to 88
+HPS cycle 2 replicate columns,True,80
+HPS cycle 2 unique replicate keys,True,71152
+HPS cycle 2 weight join,True,0
+HPS cycle 2 finite positive person weights,True,71152
+HPS cycle 2 finite nonnegative replicate weights,True,"(71152, 80)"
+HPS_Phase4Cycle03_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_00_03_puf.csv', 'hps_04_00_03_repwgt_puf.csv']"
+HPS cycle 3 count,True,71798
+HPS cycle 3 single cycle,True,3
+HPS cycle 3 unique nonmissing keys,True,0
+HPS cycle 3 geography,True,50 states + DC
+HPS cycle 3 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 3 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 3 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 3 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 3 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 3 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 3 age range,True,18 to 88
+HPS cycle 3 replicate columns,True,80
+HPS cycle 3 unique replicate keys,True,71798
+HPS cycle 3 weight join,True,0
+HPS cycle 3 finite positive person weights,True,71798
+HPS cycle 3 finite nonnegative replicate weights,True,"(71798, 80)"
+HPS_Phase4-1Cycle04_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_01_04_puf.csv', 'hps_04_01_04_repwgt_puf.csv']"
+HPS cycle 4 count,True,73352
+HPS cycle 4 single cycle,True,4
+HPS cycle 4 unique nonmissing keys,True,0
+HPS cycle 4 geography,True,50 states + DC
+HPS cycle 4 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 4 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 4 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 4 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 4 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 4 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 4 age range,True,18 to 88
+HPS cycle 4 replicate columns,True,80
+HPS cycle 4 unique replicate keys,True,73352
+HPS cycle 4 weight join,True,0
+HPS cycle 4 finite positive person weights,True,73352
+HPS cycle 4 finite nonnegative replicate weights,True,"(73352, 80)"
+HPS_Phase4-1Cycle05_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_01_05_puf.csv', 'hps_04_01_05_repwgt_puf.csv']"
+HPS cycle 5 count,True,72162
+HPS cycle 5 single cycle,True,5
+HPS cycle 5 unique nonmissing keys,True,0
+HPS cycle 5 geography,True,50 states + DC
+HPS cycle 5 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 5 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 5 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 5 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 5 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 5 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 5 age range,True,18 to 88
+HPS cycle 5 replicate columns,True,80
+HPS cycle 5 unique replicate keys,True,72162
+HPS cycle 5 weight join,True,0
+HPS cycle 5 finite positive person weights,True,72162
+HPS cycle 5 finite nonnegative replicate weights,True,"(72162, 80)"
+HPS_Phase4-1Cycle06_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_01_06_puf.csv', 'hps_04_01_06_repwgt_puf.csv']"
+HPS cycle 6 count,True,72125
+HPS cycle 6 single cycle,True,6
+HPS cycle 6 unique nonmissing keys,True,0
+HPS cycle 6 geography,True,50 states + DC
+HPS cycle 6 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 6 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 6 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 6 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 6 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 6 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 6 age range,True,18 to 88
+HPS cycle 6 replicate columns,True,80
+HPS cycle 6 unique replicate keys,True,72125
+HPS cycle 6 weight join,True,0
+HPS cycle 6 finite positive person weights,True,72125
+HPS cycle 6 finite nonnegative replicate weights,True,"(72125, 80)"
+HPS_Phase4-1Cycle07_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_01_07_puf.csv', 'hps_04_01_07_repwgt_puf.csv']"
+HPS cycle 7 count,True,70429
+HPS cycle 7 single cycle,True,7
+HPS cycle 7 unique nonmissing keys,True,0
+HPS cycle 7 geography,True,50 states + DC
+HPS cycle 7 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 7 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 7 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 7 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 7 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 7 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 7 age range,True,18 to 88
+HPS cycle 7 replicate columns,True,80
+HPS cycle 7 unique replicate keys,True,70429
+HPS cycle 7 weight join,True,0
+HPS cycle 7 finite positive person weights,True,70429
+HPS cycle 7 finite nonnegative replicate weights,True,"(70429, 80)"
+HPS_Phase4-2Cycle08_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_02_08_puf.csv', 'hps_04_02_08_repwgt_puf.csv']"
+HPS cycle 8 count,True,59913
+HPS cycle 8 single cycle,True,8
+HPS cycle 8 unique nonmissing keys,True,0
+HPS cycle 8 geography,True,50 states + DC
+HPS cycle 8 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 8 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 8 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 8 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 8 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 8 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 8 age range,True,18 to 88
+HPS cycle 8 replicate columns,True,80
+HPS cycle 8 unique replicate keys,True,59913
+HPS cycle 8 weight join,True,0
+HPS cycle 8 finite positive person weights,True,59913
+HPS cycle 8 finite nonnegative replicate weights,True,"(59913, 80)"
+HPS_Phase4-2Cycle09_PUF_CSV.zip one respondent and one weight file,True,"['hps_04_02_09_puf.csv', 'hps_04_02_09_repwgt_puf.csv']"
+HPS cycle 9 count,True,51280
+HPS cycle 9 single cycle,True,9
+HPS cycle 9 unique nonmissing keys,True,0
+HPS cycle 9 geography,True,50 states + DC
+HPS cycle 9 codes EXPNS_DIF,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 9 codes SOCIAL2,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 9 codes SOCIAL1,True,"[-99, -88, 1, 2, 3, 4, 5]"
+HPS cycle 9 codes ANXIOUS,True,"[-99, -88, 1, 2, 3, 4]"
+HPS cycle 9 codes ANYWORK,True,"[-99, -88, 1, 2]"
+HPS cycle 9 codes INCOME,True,"[-99, -88, 1, 2, 3, 4, 5, 6, 7, 8]"
+HPS cycle 9 age range,True,18 to 88
+HPS cycle 9 replicate columns,True,80
+HPS cycle 9 unique replicate keys,True,51280
+HPS cycle 9 weight join,True,0
+HPS cycle 9 finite positive person weights,True,51280
+HPS cycle 9 finite nonnegative replicate weights,True,"(51280, 80)"
+20 random raw-to-processed checks,True,20
+610755 original HPS responses,True,610755
+unique HPS aggregate keys,True,8892
+hardship valid + missing = sample,True,8892
+hardship proportions and uncertainty,True,0–100 scale
+hardship suppression honored,True,858
+lonely valid + missing = sample,True,8892
+lonely proportions and uncertainty,True,0–100 scale
+lonely suppression honored,True,848
+lack_support valid + missing = sample,True,8892
+lack_support proportions and uncertainty,True,0–100 scale
+lack_support suppression honored,True,851
+frequent_anxiety valid + missing = sample,True,8892
+frequent_anxiety proportions and uncertainty,True,0–100 scale
+frequent_anxiety suppression honored,True,844
+BLS dictionary unique series,True,33985
+51 state names,True,51
+la.data.2.AllStatesU dictionary join,True,0
+la.data.2.AllStatesU adjustment,True,U
+la.data.2.AllStatesU no duplicate observation keys,True,0
+la.data.2.AllStatesU no missing selected values,True,0
+la.data.2.AllStatesU complete expected grid,True,"15,912 long observations"
+la.data.2.AllStatesU units and range,True,percent and persons
+la.data.2.AllStatesU count identity,True,"employment + unemployment ≈ labor force, ±2 persons rounding"
+la.data.3.AllStatesS dictionary join,True,0
+la.data.3.AllStatesS adjustment,True,S
+la.data.3.AllStatesS no duplicate observation keys,True,0
+la.data.3.AllStatesS no missing selected values,True,0
+la.data.3.AllStatesS complete expected grid,True,"14,688 long observations"
+la.data.3.AllStatesS units and range,True,percent and persons
+la.data.3.AllStatesS count identity,True,"employment + unemployment ≈ labor force, ±2 persons rounding"
+monthly row count,True,7344
+annual row count,True,306
+cycle fractions sum to one,True,17
+state-cycle join cardinality,True,459
+zero unmatched join keys,True,left=0; right=0
+joined state key valid,True,leading zeros retained
+demographic context join,True,8721
+raw size requirement,True,626667
+chart 3 available estimates,True,6
+chart 4 available estimates,True,2
+chart 5 state count,True,51
+privacy export age_drilldown_selected.csv,True,no forbidden respondent fields
+privacy export alignment_sensitivity.csv,True,no forbidden respondent fields
+privacy export bls_raw_row_counts.csv,True,no forbidden respondent fields
+privacy export bls_selected_footnotes_S.csv,True,no forbidden respondent fields
+privacy export bls_selected_footnotes_U.csv,True,no forbidden respondent fields
+privacy export chart_captions.csv,True,no forbidden respondent fields
+privacy export cleaning_decisions.csv,True,no forbidden respondent fields
+privacy export hps_2024_aggregates.csv,True,no forbidden respondent fields
+privacy export hps_missingness.csv,True,no forbidden respondent fields
+privacy export hps_raw_row_counts.csv,True,no forbidden respondent fields
+privacy export input_provenance.csv,True,no forbidden respondent fields
+privacy export joined_state_cycle_2024.csv,True,no forbidden respondent fields
+privacy export laus_state_annual_2019_2024.csv,True,no forbidden respondent fields
+privacy export laus_state_month_2019_2024.csv,True,no forbidden respondent fields
+privacy export outcome_dictionary.csv,True,no forbidden respondent fields
+privacy export period_month_bridge.csv,True,no forbidden respondent fields
+privacy export row_counts_by_stage.csv,True,no forbidden respondent fields
+privacy export spotcheck_20_summary.csv,True,no forbidden respondent fields
+privacy export state_recovery_2019_2024.csv,True,no forbidden respondent fields
+privacy export validation_checks.csv,True,no forbidden respondent fields
+six briefing charts,True,6

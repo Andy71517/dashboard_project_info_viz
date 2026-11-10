@@ -1,0 +1,19 @@
+source,instrument_or_measure,actual_column,meaning_unit,codes,verified_introduction_or_scope,transformation_and_caution,questions
+HPS,SPN4,EXPNS_DIF,Ordinal household expense difficulty over last 7 days,1 not at all;2 a little;3 somewhat;4 very;-88 missing;-99 seen/no selection,"Week13, 2020-08-19; later item identifier SPN4","hardship_pct:100*PWEIGHT(codes3,4)/PWEIGHT(codes1..4)",Q2 Q3 Q4
+HPS,SOC1,SOCIAL1,Frequency of receiving needed social/emotional support,1 always;2 usually;3 sometimes;4 rarely;5 never;-88 missing;-99 seen/no selection,"Cycle1, 2024-01-09",lack_support_pct: codes3..5 / valid1..5,Q5
+HPS,SOC2,SOCIAL2,Frequency of feeling lonely,1 always;2 usually;3 sometimes;4 rarely;5 never;-88 missing;-99 seen/no selection,"Cycle1, 2024-01-09","lonely_pct: codes1,2 / valid1..5",Q4 Q5
+HPS,EMP2,ANYWORK,Any pay/profit work in previous 7 days,1 yes;2 no;-88 missing;-99 seen/no selection,"Week1, 2020-04-23",Split work groups; not BLS unemployment,Q3
+HPS,INC1,INCOME,2023 total household income before tax for the 2024 core,"1 <$25k;2 $25-34,999;3 $35-49,999;4 $50-74,999;5 $75-99,999;6 $100-149,999;7 $150-199,999;8 $200k+;negative missing",Week1; reference year changes,"Group1..3 under50k;4..5 50-99,999;6..8 100k+;Cycle1 dictionary stale2021 wording",Q3
+HPS,FD6_NEW,FDBENEFIT1,SNAP benefits received by self or household member,1 selected;-99 question seen/not selected;-88 missing,"Phase3.7, 2022-12-09 per dictionary and phase index",Optional; not transformed to a simplistic missing/yes/no variable,Optional
+HPS,HLTH1,ANXIOUS,Frequency of feeling nervous/anxious/on edge during preceding 2 weeks in2024,1 not at all;2 several days;3 more than half;4 nearly every day;negative missing,Week1; earlier recall differs,"frequent_anxiety_pct:codes3,4/valid1..4; not diagnosis or full screening score",Q4
+HPS,D1,TBIRTH_YEAR,Top/bottom coded birth year,2024 observed1936..2006;allocation ABIRTH_YEAR1 imputed2 not imputed,Week1,"Approx age2024-birthyear;groups18-34,35-64,65+",Q5
+HPS,metadata,EST_ST,State identifier,FIPS numerical in CSV; normalize to2-digit string,Week1,51 jurisdictions; no county FIPS,Q2 Q5
+HPS,metadata,PWEIGHT,Adult/person survey weight,Positive real;80 corresponding person replicate weights,Week1,Adult percentages;not household percentages,Q2 Q3 Q4 Q5
+HPS,metadata,HWEIGHT,Household survey weight,Positive real in2024;separate household replicate weights,Phase2 archive;Phase1 supplements vary,Not used for core adult-percentage estimands,Optional household estimand
+BRFSS,HealthyDays,MENTHLTH,Mentally unhealthy days in past30days,1..30 days;88 zero;77 unknown;99 refusal;blank missing,Verified2019-2025codebooks,"Decode88 to0;exclude77,99,blank",Optional annual mental health
+BRFSS,Demographics,EMPLOY1,Employment status,1 wages;2 selfemployed;3 outwork>=1year;4 outwork<1year;5 homemaker;6 student;7 retired;8 unable;9 refused,Verified2019-2025,Not exact LAUS laborforce classification,Optional
+BRFSS,Demographics,INCOME2 / INCOME3,Household income bands,INCOME2 8bands through75k+;INCOME3 11bands through200k+;77 unknown99refused,INCOME2 2019-20;INCOME3 2021-25,Harmonize common category boundaries before comparisons,Optional
+LAUS,measure03,value,Unemployment rate,Percent of civilian labor force16+;one decimal,Monthly2019-2025 audited,Monthly contextual ratio recomputed from count components;annual useM13,Q1 Q2
+LAUS,measure04,value,Unemployment count,"Persons,not thousands",Monthly2019-2025 audited,Counts include modeled estimates;missingOct2025null,Q1 Q2
+LAUS,measure05,value,Employment count,"Persons,not thousands",Monthly2019-2025 audited,"Residencebased,not jobs-by-workplace",Q1 Q2
+LAUS,measure06,value,Civilian labor-force count,Persons16+,Monthly2019-2025 audited,Denominator for unemployment rate;not HPS adult population,Q1 Q2

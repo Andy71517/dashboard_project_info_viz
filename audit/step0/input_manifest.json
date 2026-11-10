@@ -1,0 +1,114 @@
+[
+  {
+    "file": "la.txt",
+    "url": "https://download.bls.gov/pub/time.series/la/la.txt",
+    "sha256": "8edf04c0c21ef474f3729d9f67ebe06679017c6789f6ca95415a4d5186095beb",
+    "bytes": 18263,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle09/HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "sha256": "95b2f11023056d65bb01296f3c780cbc4cc0ee3cdbef28c1360d3880d61b9519",
+    "bytes": 55738425,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.data.2.AllStatesU",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.data.2.AllStatesU",
+    "sha256": "96cfbbfd2edb06d55af148efc91ad32a5474781d780636cdff16f560ad8674df",
+    "bytes": 12989736,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4Cycle01_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle01/HPS_Phase4Cycle01_PUF_CSV.zip",
+    "sha256": "f3e9f3bf6a94dbc8a4b8d46e8720e8a1eb24ccda367c599716db89fc563aedb2",
+    "bytes": 73701503,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle05/HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "sha256": "a0e1ce6900f0fd63ad54481cf7beb1a50a1c9c0e8a7cc36240797ad4d48b2cc5",
+    "bytes": 77761268,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-2Cycle08_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle08/HPS_Phase4-2Cycle08_PUF_CSV.zip",
+    "sha256": "cd42679457175df0b8aee022de47bda9125ed4938950daf3ea9cd4c937997e77",
+    "bytes": 65109760,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-1Cycle07_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle07/HPS_Phase4-1Cycle07_PUF_CSV.zip",
+    "sha256": "08be2f74a25bbd05d519ab91d78fcf5855d6b6c53f639e7aeb80ffe9d511afea",
+    "bytes": 75889084,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-1Cycle06_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle06/HPS_Phase4-1Cycle06_PUF_CSV.zip",
+    "sha256": "a08e0d2ad2dc94b4c78ff4221d0895c5c5992ee0c90c344387f3a3b728769403",
+    "bytes": 77726959,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4-1Cycle04_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle04/HPS_Phase4-1Cycle04_PUF_CSV.zip",
+    "sha256": "ac4661b1e342f6b0cc819c425bf6d8730bb610148b96f078ae5d0dff2806b82c",
+    "bytes": 79082536,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4Cycle03_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle03/HPS_Phase4Cycle03_PUF_CSV.zip",
+    "sha256": "62c0c379584975ce446d4ca115d41c0a5bdbeebfb98eb463f7e4bd0fda0c86e4",
+    "bytes": 77152732,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "HPS_Phase4Cycle02_PUF_CSV.zip",
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle02/HPS_Phase4Cycle02_PUF_CSV.zip",
+    "sha256": "0f4a197682fb133e907b2d75d9875937fa07fe98e371267cd4300cad46b94d19",
+    "bytes": 76477316,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.series",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.series",
+    "sha256": "800ac6d4589ff9a714f27caa007c54263b0d66080a27a131206107c4d0fe68a0",
+    "bytes": 4086542,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.measure",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.measure",
+    "sha256": "b43486145486a91cf5f9cb1a1109b1a2a4ca0d0c5a9a7d5e0f7178949b5dfee7",
+    "bytes": 205,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.area",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.area",
+    "sha256": "7f1dcbd6a2506d92d65641609cf08bd04f0a534503c6d0f23497f284dce1fc45",
+    "bytes": 439599,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.footnote",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.footnote",
+    "sha256": "c6b626b0ec2fcd4a9c194e3998c8935b85cb5175b022f1353be13c22e2861268",
+    "bytes": 752,
+    "retrieved_on": "2026-11-02"
+  },
+  {
+    "file": "la.data.3.AllStatesS",
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.data.3.AllStatesS",
+    "sha256": "c4d9efe4b46618b75e8c7a6f7b4a9652e70beb6e301e4fcd290773bee4ac9737",
+    "bytes": 10300000,
+    "retrieved_on": "2026-11-02"
+  }
+]

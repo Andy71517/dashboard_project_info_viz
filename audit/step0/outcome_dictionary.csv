@@ -1,0 +1,5 @@
+source,column,derived_measure,valid_codes,qualifying_codes,unit
+Census HPS,EXPNS_DIF,hardship,"[1, 2, 3, 4]","[3, 4]",weighted percent of adults with valid responses
+Census HPS,SOCIAL2,lonely,"[1, 2, 3, 4, 5]","[1, 2]",weighted percent of adults with valid responses
+Census HPS,SOCIAL1,lack_support,"[1, 2, 3, 4, 5]","[3, 4, 5]",weighted percent of adults with valid responses
+Census HPS,ANXIOUS,frequent_anxiety,"[1, 2, 3, 4]","[3, 4]",weighted percent of adults with valid responses

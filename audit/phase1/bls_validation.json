@@ -1,0 +1,41 @@
+[
+  {
+    "file": "la.data.2.AllStatesU",
+    "measured_raw_rows": 235733,
+    "min_year": 1976,
+    "max_year": 2026,
+    "periods_latest_year": [
+      "M01",
+      "M02",
+      "M03"
+    ],
+    "selected_2019_2025_rows": 18564,
+    "missing_values_selected": 204,
+    "selected_footnote_counts": {
+      "R": 12852,
+      "": 5304,
+      "X": 204,
+      "G,R": 204
+    },
+    "duplicate_keys": 0
+  },
+  {
+    "file": "la.data.3.AllStatesS",
+    "measured_raw_rows": 186930,
+    "min_year": 1976,
+    "max_year": 2026,
+    "periods_latest_year": [
+      "M01",
+      "M02",
+      "M03"
+    ],
+    "selected_2019_2025_rows": 17136,
+    "missing_values_selected": 204,
+    "selected_footnote_counts": {
+      "R": 12036,
+      "": 4896,
+      "X": 204
+    },
+    "duplicate_keys": 0
+  }
+]

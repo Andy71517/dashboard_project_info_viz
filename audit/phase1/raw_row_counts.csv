@@ -1,0 +1,16 @@
+archive,inner_file,measured_rows,columns,states,cycle
+HPS_Phase4-1Cycle04_PUF_CSV.zip,hps_04_01_04_puf.csv,73352,181,51.0,4.0
+HPS_Phase4-1Cycle05_PUF_CSV.zip,hps_04_01_05_puf.csv,72162,181,51.0,5.0
+HPS_Phase4-1Cycle06_PUF_CSV.zip,hps_04_01_06_puf.csv,72125,181,51.0,6.0
+HPS_Phase4-1Cycle07_PUF_CSV.zip,hps_04_01_07_puf.csv,70429,181,51.0,7.0
+HPS_Phase4-2Cycle08_PUF_CSV.zip,hps_04_02_08_puf.csv,59913,220,51.0,8.0
+HPS_Phase4-2Cycle09_PUF_CSV.zip,hps_04_02_09_puf.csv,51280,220,51.0,9.0
+HPS_Phase4Cycle01_PUF_CSV.zip,hps_04_00_01_puf.csv,68544,170,51.0,1.0
+HPS_Phase4Cycle02_PUF_CSV.zip,hps_04_00_02_puf.csv,71152,170,51.0,2.0
+HPS_Phase4Cycle03_PUF_CSV.zip,hps_04_00_03_puf.csv,71798,170,51.0,3.0
+HPS_Week01_PUF_CSV.zip,pulse2020_puf_01.csv,74413,82,51.0,
+HPS_Week13_PUF_CSV.zip,pulse2020_puf_13.csv,109051,188,51.0,
+HPS_Week22_PUF_CSV.zip,pulse2021_puf_22.csv,68348,204,51.0,
+HPS_Week41_PUF_CSV.zip,pulse2022_puf_41.csv,74995,208,51.0,
+HPS_Week63_PUF_CSV.zip,pulse2023_puf_63.csv,79371,247,51.0,
+HTOPS_HPS_2502_CSV.zip,HTOPS_HPS_2502_PUF.csv,6740,206,,

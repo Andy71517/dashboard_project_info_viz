@@ -1,0 +1,1142 @@
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A662=INC1 | B662=INCOME | C662=Description | D662=Total household income (before taxes) | E662=In 2023 what was your total household income before taxes? Select only one answer. | F662=1:8 | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A663= | B663= | C663=Values | D663=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664=TBIRTH_YEAR<=2006 | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A702=- | B702=PWEIGHT | C702=Description | D702=Person level weight | E702= | F702=Varying | G702=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A703= | B703= | C703=Values | D703=TBD | E703= | F703= | G703=
+A704= | B704= | C704=Universe | D704= | E704= | F704= | G704=
+A705= | B705= | C705=Internal Notes | D705= | E705= | F705= | G705=
+
+HPS_Phase4-1Cycle04_PUF_CSV_dictionary.txt
+A706=- | B706=HWEIGHT | C706=Description | D706=Household level weight | E706=- | F706=Varying | G706=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A707= | B707= | C707=Values | D707= | E707= | F707= | G707=
+A708= | B708= | C708=Universe | D708= | E708= | F708= | G708=
+A709= | B709= | C709=Internal Notes | D709= | E709= | F709= | G709=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A662=INC1 | B662=INCOME | C662=Description | D662=Total household income (before taxes) | E662=In 2023 what was your total household income before taxes? Select only one answer. | F662=1:8 | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A663= | B663= | C663=Values | D663=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664=TBIRTH_YEAR<=2006 | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A702=- | B702=PWEIGHT | C702=Description | D702=Person level weight | E702= | F702=Varying | G702=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A703= | B703= | C703=Values | D703=TBD | E703= | F703= | G703=
+A704= | B704= | C704=Universe | D704= | E704= | F704= | G704=
+A705= | B705= | C705=Internal Notes | D705= | E705= | F705= | G705=
+
+HPS_Phase4-1Cycle05_PUF_CSV_dictionary.txt
+A706=- | B706=HWEIGHT | C706=Description | D706=Household level weight | E706=- | F706=Varying | G706=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A707= | B707= | C707=Values | D707= | E707= | F707= | G707=
+A708= | B708= | C708=Universe | D708= | E708= | F708= | G708=
+A709= | B709= | C709=Internal Notes | D709= | E709= | F709= | G709=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A662=INC1 | B662=INCOME | C662=Description | D662=Total household income (before taxes) | E662=In 2023 what was your total household income before taxes? Select only one answer. | F662=1:8 | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A663= | B663= | C663=Values | D663=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664=TBIRTH_YEAR<=2006 | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A702=- | B702=PWEIGHT | C702=Description | D702=Person level weight | E702= | F702=Varying | G702=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A703= | B703= | C703=Values | D703=TBD | E703= | F703= | G703=
+A704= | B704= | C704=Universe | D704= | E704= | F704= | G704=
+A705= | B705= | C705=Internal Notes | D705= | E705= | F705= | G705=
+
+HPS_Phase4-1Cycle06_PUF_CSV_dictionary.txt
+A706=- | B706=HWEIGHT | C706=Description | D706=Household level weight | E706=- | F706=Varying | G706=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A707= | B707= | C707=Values | D707= | E707= | F707= | G707=
+A708= | B708= | C708=Universe | D708= | E708= | F708= | G708=
+A709= | B709= | C709=Internal Notes | D709= | E709= | F709= | G709=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A662=INC1 | B662=INCOME | C662=Description | D662=Total household income (before taxes) | E662=In 2023 what was your total household income before taxes? Select only one answer. | F662=1:8 | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A663= | B663= | C663=Values | D663=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664=TBIRTH_YEAR<=2006 | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A702=- | B702=PWEIGHT | C702=Description | D702=Person level weight | E702= | F702=Varying | G702=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A703= | B703= | C703=Values | D703=TBD | E703= | F703= | G703=
+A704= | B704= | C704=Universe | D704= | E704= | F704= | G704=
+A705= | B705= | C705=Internal Notes | D705= | E705= | F705= | G705=
+
+HPS_Phase4-1Cycle07_PUF_CSV_dictionary.txt
+A706=- | B706=HWEIGHT | C706=Description | D706=Household level weight | E706=- | F706=Varying | G706=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1
+A707= | B707= | C707=Values | D707= | E707= | F707= | G707=
+A708= | B708= | C708=Universe | D708= | E708= | F708= | G708=
+A709= | B709= | C709=Internal Notes | D709= | E709= | F709= | G709=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1, 4.2 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1, 4.2 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A358=SPN4 | B358=EXPNS_DIF | C358=Description | D358=Difficulty with expenses | E358=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F358=1:4 | G358=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A359= | B359= | C359=Values | D359=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E359= | F359= | G359=
+A360= | B360= | C360=Universe | D360=TBIRTH_YEAR<=2006 | E360= | F360= | G360=
+A361= | B361= | C361=Internal Notes | D361= | E361= | F361= | G361=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A422=FD6_NEW | B422=FDBENEFIT1 | C422=Description | D422=SNAP Receipt | E422=Do you or does anyone in your household receive benefits from… Select all that apply. | F422=<blank>,1 | G422=3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A423= | B423= | C423=Values | D423=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E423= | F423= | G423=
+A424= | B424= | C424=Universe | D424=TBIRTH_YEAR<=2006 | E424= | F424= | G424=
+A425= | B425= | C425=Internal Notes | D425= | E425= | F425= | G425=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A818=INC1 | B818=INCOME | C818=Description | D818=Total household income (before taxes) | E818=In 2023 what was your total household income before taxes? Select only one answer. | F818=1:8 | G818=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A819= | B819= | C819=Values | D819=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E819= | F819= | G819=
+A820= | B820= | C820=Universe | D820=TBIRTH_YEAR<=2006 | E820= | F820= | G820=
+A821= | B821= | C821=Internal Notes | D821= | E821= | F821= | G821=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A858=- | B858=PWEIGHT | C858=Description | D858=Person level weight | E858= | F858=Varying | G858=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A859= | B859= | C859=Values | D859=TBD | E859= | F859= | G859=
+A860= | B860= | C860=Universe | D860= | E860= | F860= | G860=
+A861= | B861= | C861=Internal Notes | D861= | E861= | F861= | G861=
+
+HPS_Phase4-2Cycle08_PUF_CSV_dictionary.txt
+A862=- | B862=HWEIGHT | C862=Description | D862=Household level weight | E862=- | F862=Varying | G862=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A863= | B863= | C863=Values | D863= | E863= | F863= | G863=
+A864= | B864= | C864=Universe | D864= | E864= | F864= | G864=
+A865= | B865= | C865=Internal Notes | D865= | E865= | F865= | G865=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0, 4.1, 4.2 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0, 4.1, 4.2 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A358=SPN4 | B358=EXPNS_DIF | C358=Description | D358=Difficulty with expenses | E358=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F358=1:4 | G358=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A359= | B359= | C359=Values | D359=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E359= | F359= | G359=
+A360= | B360= | C360=Universe | D360=TBIRTH_YEAR<=2006 | E360= | F360= | G360=
+A361= | B361= | C361=Internal Notes | D361= | E361= | F361= | G361=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A422=FD6_NEW | B422=FDBENEFIT1 | C422=Description | D422=SNAP Receipt | E422=Do you or does anyone in your household receive benefits from… Select all that apply. | F422=<blank>,1 | G422=3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A423= | B423= | C423=Values | D423=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E423= | F423= | G423=
+A424= | B424= | C424=Universe | D424=TBIRTH_YEAR<=2006 | E424= | F424= | G424=
+A425= | B425= | C425=Internal Notes | D425= | E425= | F425= | G425=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A818=INC1 | B818=INCOME | C818=Description | D818=Total household income (before taxes) | E818=In 2023 what was your total household income before taxes? Select only one answer. | F818=1:8 | G818=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A819= | B819= | C819=Values | D819=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E819= | F819= | G819=
+A820= | B820= | C820=Universe | D820=TBIRTH_YEAR<=2006 | E820= | F820= | G820=
+A821= | B821= | C821=Internal Notes | D821= | E821= | F821= | G821=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A858=- | B858=PWEIGHT | C858=Description | D858=Person level weight | E858= | F858=Varying | G858=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A859= | B859= | C859=Values | D859=TBD | E859= | F859= | G859=
+A860= | B860= | C860=Universe | D860= | E860= | F860= | G860=
+A861= | B861= | C861=Internal Notes | D861= | E861= | F861= | G861=
+
+HPS_Phase4-2Cycle09_PUF_CSV_dictionary.txt
+A862=- | B862=HWEIGHT | C862=Description | D862=Household level weight | E862=- | F862=Varying | G862=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 4.0, 4.1, 4.2
+A863= | B863= | C863=Values | D863= | E863= | F863= | G863=
+A864= | B864= | C864=Universe | D864= | E864= | F864= | G864=
+A865= | B865= | C865=Internal Notes | D865= | E865= | F865= | G865=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A618=INC1 | B618=INCOME | C618=Description | D618=Total household income (before taxes) | E618=In 2021 what was your total household income before taxes? Select only one answer. | F618=1:8 | G618=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A619= | B619= | C619=Values | D619=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E619= | F619= | G619=
+A620= | B620= | C620=Universe | D620=TBIRTH_YEAR<=2006 | E620= | F620= | G620=
+A621= | B621= | C621=Internal Notes | D621= | E621= | F621= | G621=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A658=- | B658=PWEIGHT | C658=Description | D658=Person level weight | E658= | F658=Varying | G658=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A659= | B659= | C659=Values | D659=TBD | E659= | F659= | G659=
+A660= | B660= | C660=Universe | D660= | E660= | F660= | G660=
+A661= | B661= | C661=Internal Notes | D661= | E661= | F661= | G661=
+
+HPS_Phase4Cycle01_PUF_CSV_dictionary.txt
+A662=- | B662=HWEIGHT | C662=Description | D662=Household level weight | E662=- | F662=Varying | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A663= | B663= | C663=Values | D663= | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664= | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A618=INC1 | B618=INCOME | C618=Description | D618=Total household income (before taxes) | E618=In 2021 what was your total household income before taxes? Select only one answer. | F618=1:8 | G618=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A619= | B619= | C619=Values | D619=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E619= | F619= | G619=
+A620= | B620= | C620=Universe | D620=TBIRTH_YEAR<=2006 | E620= | F620= | G620=
+A621= | B621= | C621=Internal Notes | D621= | E621= | F621= | G621=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A658=- | B658=PWEIGHT | C658=Description | D658=Person level weight | E658= | F658=Varying | G658=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A659= | B659= | C659=Values | D659=TBD | E659= | F659= | G659=
+A660= | B660= | C660=Universe | D660= | E660= | F660= | G660=
+A661= | B661= | C661=Internal Notes | D661= | E661= | F661= | G661=
+
+HPS_Phase4Cycle02_PUF_CSV_dictionary.txt
+A662=- | B662=HWEIGHT | C662=Description | D662=Household level weight | E662=- | F662=Varying | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A663= | B663= | C663=Values | D663= | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664= | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A150=EMP2 | B150=ANYWORK | C150=Description | D150=Employment status for last 7 days | E150=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F150=1:2 | G150=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A151= | B151= | C151=Values | D151=1) Yes
+2) No
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E151= | F151= | G151=
+A152= | B152= | C152=Universe | D152=TBIRTH_YEAR<=2006 | E152= | F152= | G152=
+A153= | B153= | C153=Internal Notes | D153= | E153= | F153= | G153=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A194=HLTH1 | B194=ANXIOUS | C194=Description | D194=Frequency of anxiety over previous 2 weeks | E194=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F194=1:4 | G194=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A195= | B195= | C195=Values | D195=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E195= | F195= | G195=
+A196= | B196= | C196=Universe | D196=TBIRTH_YEAR<=2006 | E196= | F196= | G196=
+A197= | B197= | C197=Internal Notes | D197= | E197= | F197= | G197=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A226=SOC1 | B226=SOCIAL1 | C226=Description | D226=Social and emotional support  | E226=How often do you get the social and emotional support you need?  | F226=1:5 | G226=4.0 
+A227= | B227= | C227=Values | D227=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E227= | F227= | G227=
+A228= | B228= | C228=Universe | D228=TBIRTH_YEAR<=2006 | E228= | F228= | G228=
+A229= | B229= | C229=Internal Notes | D229= | E229= | F229= | G229=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A230=SOC2 | B230=SOCIAL2 | C230=Description | D230=Frequency of Loneliness | E230=How often do you feel lonely?   | F230=1:5 | G230=4.0 
+A231= | B231= | C231=Values | D231=1) Always
+2) Usually
+3) Sometimes
+4) Rarely?
+5) Never
+-99) Question seen but category not selected
+<.m> ) Missing / Did not report | E231= | F231= | G231=
+A232= | B232= | C232=Universe | D232=TBIRTH_YEAR<=2006 | E232= | F232= | G232=
+A233= | B233= | C233=Internal Notes | D233= | E233= | F233= | G233=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A306=SPN4 | B306=EXPNS_DIF | C306=Description | D306=Difficulty with expenses | E306=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F306=1:4 | G306=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A307= | B307= | C307=Values | D307=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E307= | F307= | G307=
+A308= | B308= | C308=Universe | D308=TBIRTH_YEAR<=2006 | E308= | F308= | G308=
+A309= | B309= | C309=Internal Notes | D309= | E309= | F309= | G309=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A370=FD6_NEW | B370=FDBENEFIT1 | C370=Description | D370=SNAP Receipt | E370=Do you or does anyone in your household receive benefits from… Select all that apply. | F370=<blank>,1 | G370=3.7, 3.8, 3.9, 3.10
+A371= | B371= | C371=Values | D371=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E371= | F371= | G371=
+A372= | B372= | C372=Universe | D372=TBIRTH_YEAR<=2006 | E372= | F372= | G372=
+A373= | B373= | C373=Internal Notes | D373= | E373= | F373= | G373=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A618=INC1 | B618=INCOME | C618=Description | D618=Total household income (before taxes) | E618=In 2021 what was your total household income before taxes? Select only one answer. | F618=1:8 | G618=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A619= | B619= | C619=Values | D619=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+<.m>) Missing / Did not report | E619= | F619= | G619=
+A620= | B620= | C620=Universe | D620=TBIRTH_YEAR<=2006 | E620= | F620= | G620=
+A621= | B621= | C621=Internal Notes | D621= | E621= | F621= | G621=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A658=- | B658=PWEIGHT | C658=Description | D658=Person level weight | E658= | F658=Varying | G658=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A659= | B659= | C659=Values | D659=TBD | E659= | F659= | G659=
+A660= | B660= | C660=Universe | D660= | E660= | F660= | G660=
+A661= | B661= | C661=Internal Notes | D661= | E661= | F661= | G661=
+
+HPS_Phase4Cycle03_PUF_CSV_dictionary.txt
+A662=- | B662=HWEIGHT | C662=Description | D662=Household level weight | E662=- | F662=Varying | G662=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A663= | B663= | C663=Values | D663= | E663= | F663= | G663=
+A664= | B664= | C664=Universe | D664= | E664= | F664= | G664=
+A665= | B665= | C665=Internal Notes | D665= | E665= | F665= | G665=
+
+HPS_Week01_PUF_CSV_dictionary.txt
+A49=11 | B49=ANYWORK | C49=Description | D49=Employment status for last 7 days | E49=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_
+work for either pay or profit? Select only one answer. | F49=1,2
+A50= | B50= | C50=Values | D50=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E50= | F50=
+A51= | B51= | C51=Universe | D51=All persons | E51= | F51=
+A52= | B52= | C52=Internal Notes | D52= | E52= | F52=
+
+HPS_Week01_PUF_CSV_dictionary.txt
+A141=32 | B141=ANXIOUS | C141=Description | D141=Frequency of anxiety over previous 7 days | E141=Over_x000D_
+the last 7_x000D_
+days, how often have you been bothered by the following problems ... Feeling_x000D_
+nervous, anxious, or on edge? Would you say not at all, several days, more than_x000D_
+half the days, or nearly every day? Select only one answer. | F141=1:4
+A142= | B142= | C142=Values | D142=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E142= | F142=
+A143= | B143= | C143=Universe | D143=All persons | E143= | F143=
+A144= | B144= | C144=Internal Notes | D144= | E144= | F144=
+
+HPS_Week01_PUF_CSV_dictionary.txt
+A281=50 | B281=INCOME | C281=Description | D281=Total household income (before taxes) | E281=In 2019 what was your total household income before taxes? Select_x000D_
+only one answer. | F281=1:8
+A282= | B282= | C282=Values | D282=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E282= | F282=
+A283= | B283= | C283=Universe | D283=All persons | E283= | F283=
+A284= | B284= | C284=Internal Notes | D284= | E284= | F284=
+
+HPS_Week01_PUF_CSV_dictionary.txt
+A321=- | B321=PWEIGHT | C321=Description | D321=Person level weight | E321=- | F321=Varying
+A322= | B322= | C322=Values | D322=Varying | E322= | F322=
+A323= | B323= | C323=Universe | D323=All persons | E323= | F323=
+A324= | B324= | C324=Internal Notes | D324= | E324= | F324=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A49=11 | B49=ANYWORK | C49=Description | D49=Employment status for last 7 days | E49=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F49=1,2
+A50= | B50= | C50=Values | D50=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E50= | F50=
+A51= | B51= | C51=Universe | D51=All persons born before 2002 | E51= | F51=
+A52= | B52= | C52=Internal Notes | D52= | E52= | F52=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A137=19a | B137=EXPNS_DIF | C137=Description | D137=Difficulty with expenses | E137=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F137=1:4
+A138= | B138= | C138=Values | D138=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E138= | F138=
+A139= | B139= | C139=Universe | D139=All persons born before 2002 | E139= | F139=
+A140= | B140= | C140=Internal Notes | D140= | E140= | F140=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A421=32 | B421=ANXIOUS | C421=Description | D421=Frequency of anxiety over previous 7 days | E421=Over_x000D_
+the last 7_x000D_
+days, how often have you been bothered by the following problems ... Feeling_x000D_
+nervous, anxious, or on edge? Would you say not at all, several days, more than_x000D_
+half the days, or nearly every day? Select only one answer. | F421=1:4
+A422= | B422= | C422=Values | D422=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E422= | F422=
+A423= | B423= | C423=Universe | D423=All persons born before 2002 | E423= | F423=
+A424= | B424= | C424=Internal Notes | D424= | E424= | F424=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A689=50 | B689=INCOME | C689=Description | D689=Total household income (before taxes) | E689=In 2019 what was your total household income before taxes? Select_x000D_
+only one answer. | F689=1:8
+A690= | B690= | C690=Values | D690=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E690= | F690=
+A691= | B691= | C691=Universe | D691=All persons born before 2002 | E691= | F691=
+A692= | B692= | C692=Internal Notes | D692= | E692= | F692=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A729=- | B729=PWEIGHT | C729=Description | D729=Person level weight | E729=- | F729=Varying
+A730= | B730= | C730=Values | D730= | E730= | F730=
+A731= | B731= | C731=Universe | D731= | E731= | F731=
+A732= | B732= | C732=Internal Notes | D732= | E732= | F732=
+
+HPS_Week13_PUF_CSV_dictionary.txt
+A733=- | B733=HWEIGHT | C733=Description | D733=Household level weight | E733=- | F733=Varying
+A734= | B734= | C734=Values | D734= | E734= | F734=
+A735= | B735= | C735=Universe | D735= | E735= | F735=
+A736= | B736= | C736=Internal Notes | D736= | E736= | F736=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A134=11 | B134=ANYWORK | C134=Description | D134=Employment status for last 7 days | E134=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F134=1:2
+A135= | B135= | C135=Values | D135=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E135= | F135=
+A136= | B136= | C136=Universe | D136=All person's born before 2003 | E136= | F136=
+A137= | B137= | C137=Internal Notes | D137= | E137= | F137=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A270=19a | B270=EXPNS_DIF | C270=Description | D270=Difficulty with expenses | E270=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F270=1:4
+A271= | B271= | C271=Values | D271=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E271= | F271=
+A272= | B272= | C272=Universe | D272=All person's born before 2003 | E272= | F272=
+A273= | B273= | C273=Internal Notes | D273= | E273= | F273=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A490=32 | B490=ANXIOUS | C490=Description | D490=Frequency of anxiety over previous 7 days | E490=Over_x000D_
+the last 7_x000D_
+days, how often have you been bothered by the following problems ... Feeling_x000D_
+nervous, anxious, or on edge? Would you say not at all, several days, more than_x000D_
+half the days, or nearly every day? Select only one answer. | F490=1:4
+A491= | B491= | C491=Values | D491=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E491= | F491=
+A492= | B492= | C492=Universe | D492=All person's born before 2003 | E492= | F492=
+A493= | B493= | C493=Internal Notes | D493= | E493= | F493=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A754=50 | B754=INCOME | C754=Description | D754=Total household income (before taxes) | E754=In 2019 what was your total household income before taxes? Select_x000D_
+only one answer. | F754=1:8
+A755= | B755= | C755=Values | D755=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E755= | F755=
+A756= | B756= | C756=Universe | D756=All person's born before 2003 | E756= | F756=
+A757= | B757= | C757=Internal Notes | D757= | E757= | F757=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A794=- | B794=PWEIGHT | C794=Description | D794=Person level weight | E794= | F794=TBD
+A795= | B795= | C795=Values | D795=TBD | E795= | F795=
+A796= | B796= | C796=Universe | D796= | E796= | F796=
+A797= | B797= | C797=Internal Notes | D797= | E797= | F797=
+
+HPS_Week22_PUF_CSV_dictionary.txt
+A798=- | B798=HWEIGHT | C798=Description | D798=Household level weight | E798=- | F798=Varying
+A799= | B799= | C799=Values | D799= | E799= | F799=
+A800= | B800= | C800=Universe | D800= | E800= | F800=
+A801= | B801= | C801=Internal Notes | D801= | E801= | F801=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A250=EMP2 | B250=ANYWORK | C250=Description | D250=Employment status for last 7 days | E250=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F250=1:2 | G250=1, 2, 3, 3.1, 3.2, 3.3
+A251= | B251= | C251=Values | D251=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E251= | F251= | G251=
+A252= | B252= | C252=Universe | D252=All persons born before 2004 | E252= | F252= | G252=
+A253= | B253= | C253=Internal Notes | D253= | E253= | F253= | G253=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A398=SPN4 | B398=EXPNS_DIF | C398=Description | D398=Difficulty with expenses | E398=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F398=1:4 | G398=3.2, 3.3
+A399= | B399= | C399=Values | D399=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E399= | F399= | G399=Modified to streamline series in 3.2
+A400= | B400= | C400=Universe | D400=All persons born before 2004 | E400= | F400= | G400=
+A401= | B401= | C401=Internal Notes | D401= | E401= | F401= | G401=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A526=HLTH1 | B526=ANXIOUS | C526=Description | D526=Frequency of anxiety over previous 2 weeks | E526=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F526=1:4 | G526=1, 2, 3, 3.1, 3.2, 3.3
+A527= | B527= | C527=Values | D527=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E527= | F527= | G527=Phase 3.2 modifed to 'last 2 weeks'
+A528= | B528= | C528=Universe | D528=All persons born before 2004 | E528= | F528= | G528=
+A529= | B529= | C529=Internal Notes | D529= | E529= | F529= | G529=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A754=INC1 | B754=INCOME | C754=Description | D754=Total household income (before taxes) | E754=In 2020 what was your total household income before taxes? Select only one answer. | F754=1:8 | G754=1, 2, 3, 3.1, 3.2, 3.3
+A755= | B755= | C755=Values | D755=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E755= | F755= | G755=
+A756= | B756= | C756=Universe | D756=All persons born before 2004 | E756= | F756= | G756=
+A757= | B757= | C757=Internal Notes | D757= | E757= | F757= | G757=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A794=- | B794=PWEIGHT | C794=Description | D794=Person level weight | E794= | F794=TBD | G794=1, 2, 3, 3.1, 3.2, 3.3
+A795= | B795= | C795=Values | D795=TBD | E795= | F795= | G795=
+A796= | B796= | C796=Universe | D796= | E796= | F796= | G796=
+A797= | B797= | C797=Internal Notes | D797= | E797= | F797= | G797=
+
+HPS_Week41_PUF_CSV_dictionary.txt
+A798=- | B798=HWEIGHT | C798=Description | D798=Household level weight | E798=- | F798=Varying | G798=1, 2, 3, 3.1, 3.2, 3.3
+A799= | B799= | C799=Values | D799= | E799= | F799= | G799=
+A800= | B800= | C800=Universe | D800= | E800= | F800= | G800=
+A801= | B801= | C801=Internal Notes | D801= | E801= | F801= | G801=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A210=EMP2 | B210=ANYWORK | C210=Description | D210=Employment status for last 7 days | E210=Now we are going to ask about your employment._x000D_
+In the last 7 days, did you do ANY_x000D_ work for either pay or profit? Select only one answer. | F210=1:2 | G210=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A211= | B211= | C211=Values | D211=1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report | E211= | F211= | G211=
+A212= | B212= | C212=Universe | D212=All persons born before 2005 | E212= | F212= | G212=
+A213= | B213= | C213=Internal Notes | D213= | E213= | F213= | G213=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A366=SPN4 | B366=EXPNS_DIF | C366=Description | D366=Difficulty with expenses | E366=In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer. | F366=1:4 | G366=3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A367= | B367= | C367=Values | D367=1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E367= | F367= | G367=
+A368= | B368= | C368=Universe | D368=All persons born before 2005 | E368= | F368= | G368=
+A369= | B369= | C369=Internal Notes | D369= | E369= | F369= | G369=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A482=FD6_NEW | B482=FDBENEFIT1 | C482=Description | D482=SNAP Receipt | E482=Do you or does anyone in your household receive benefits from… Select all that apply. | F482=<blank>,1 | G482=3.7, 3.8, 3.9, 3.10
+A483= | B483= | C483=Values | D483=1) Supplemental Nutrition Assistance Program (SNAP) or Food Stamp Program
+-99) Question seen but category not selected
+-88) Missing / Did not report | E483= | F483= | G483=
+A484= | B484= | C484=Universe | D484=All persons born before 2005 | E484= | F484= | G484=
+A485= | B485= | C485=Internal Notes | D485= | E485= | F485= | G485=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A698=HLTH1 | B698=ANXIOUS | C698=Description | D698=Frequency of anxiety over previous 2 weeks | E698=Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer. | F698=1:4 | G698=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A699= | B699= | C699=Values | D699=1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report | E699= | F699= | G699=
+A700= | B700= | C700=Universe | D700=All persons born before 2005 | E700= | F700= | G700=
+A701= | B701= | C701=Internal Notes | D701= | E701= | F701= | G701=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A926=INC1 | B926=INCOME | C926=Description | D926=Total household income (before taxes) | E926=In 2021 what was your total household income before taxes? Select only one answer. | F926=1:8 | G926=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+A927= | B927= | C927=Values | D927=1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report | E927= | F927= | G927=
+A928= | B928= | C928=Universe | D928=All persons born before 2005 | E928= | F928= | G928=
+A929= | B929= | C929=Internal Notes | D929= | E929= | F929= | G929=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A966=- | B966=PWEIGHT | C966=Description | D966=Person level weight | E966= | F966=Varying | G966=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A967= | B967= | C967=Values | D967=TBD | E967= | F967= | G967=
+A968= | B968= | C968=Universe | D968= | E968= | F968= | G968=
+A969= | B969= | C969=Internal Notes | D969= | E969= | F969= | G969=
+
+HPS_Week63_PUF_CSV_dictionary.txt
+A970=- | B970=HWEIGHT | C970=Description | D970=Household level weight | E970=- | F970=Varying | G970=1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9
+A971= | B971= | C971=Values | D971= | E971= | F971= | G971=
+A972= | B972= | C972=Universe | D972= | E972= | F972= | G972=
+A973= | B973= | C973=Internal Notes | D973= | E973= | F973= | G973=

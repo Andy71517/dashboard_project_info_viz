@@ -1,0 +1,17 @@
+{
+  "hps_2024_raw_rows": 610755,
+  "laus_2019_2025_nsa_selected_long_observations": 18564,
+  "selected_raw_total_without_double_counting_sa": 629319,
+  "join_left_rows": 459,
+  "join_right_rows": 459,
+  "joined_rows": 459,
+  "join_type": "left, one_to_one",
+  "unmatched_left": 0,
+  "unmatched_right": 0,
+  "demographic_join_rows": 8721,
+  "demographic_join_unmatched": 0,
+  "hps_aggregate_rows": 8892,
+  "brfss_records": 774426,
+  "privacy": "HPS aggregate-only exports; BRFSS selected-field sample has no ID, birthyear, or exact interview date",
+  "causal_claims": false
+}

@@ -1,0 +1,13 @@
+source,stage,before,after
+HPS cycle 1,load → recode → valid weight alignment,68544,68544
+HPS cycle 2,load → recode → valid weight alignment,71152,71152
+HPS cycle 3,load → recode → valid weight alignment,71798,71798
+HPS cycle 4,load → recode → valid weight alignment,73352,73352
+HPS cycle 5,load → recode → valid weight alignment,72162,72162
+HPS cycle 6,load → recode → valid weight alignment,72125,72125
+HPS cycle 7,load → recode → valid weight alignment,70429,70429
+HPS cycle 8,load → recode → valid weight alignment,59913,59913
+HPS cycle 9,load → recode → valid weight alignment,51280,51280
+la.data.2.AllStatesU,scope selection,235733,15912
+la.data.3.AllStatesS,scope selection,186930,14688
+HPS + LAUS,state-cycle one-to-one left join,459,459

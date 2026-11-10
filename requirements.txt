@@ -1,0 +1,8 @@
+# Optional local environment matching the executed Step 0 notebook (Python 3.12).
+# Colab supplies its own environment; the notebook checks its required imports.
+numpy==2.5.4
+pandas==3.0.1
+matplotlib==3.11.2
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.3.0

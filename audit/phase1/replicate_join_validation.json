@@ -1,0 +1,74 @@
+[
+  {
+    "cycle": 4,
+    "respondent_rows": 73352,
+    "replicate_rows": 73352,
+    "matched": 73352,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 5,
+    "respondent_rows": 72162,
+    "replicate_rows": 72162,
+    "matched": 72162,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 6,
+    "respondent_rows": 72125,
+    "replicate_rows": 72125,
+    "matched": 72125,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 7,
+    "respondent_rows": 70429,
+    "replicate_rows": 70429,
+    "matched": 70429,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 8,
+    "respondent_rows": 59913,
+    "replicate_rows": 59913,
+    "matched": 59913,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 9,
+    "respondent_rows": 51280,
+    "replicate_rows": 51280,
+    "matched": 51280,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 1,
+    "respondent_rows": 68544,
+    "replicate_rows": 68544,
+    "matched": 68544,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 2,
+    "respondent_rows": 71152,
+    "replicate_rows": 71152,
+    "matched": 71152,
+    "unmatched": 0,
+    "replicate_weights": 80
+  },
+  {
+    "cycle": 3,
+    "respondent_rows": 71798,
+    "replicate_rows": 71798,
+    "matched": 71798,
+    "unmatched": 0,
+    "replicate_weights": 80
+  }
+]

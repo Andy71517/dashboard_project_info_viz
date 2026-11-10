@@ -1,0 +1,882 @@
+[
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2019.html",
+    "file": "brfss_2019.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2020.html",
+    "file": "brfss_2020.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2021.html",
+    "file": "brfss_2021.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2022.html",
+    "file": "brfss_2022.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+    "file": "brfss_2023.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2024.html",
+    "file": "brfss_2024.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/annual_2025.html",
+    "file": "brfss_2025.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2020.html",
+    "file": "hps_2020.html",
+    "status": 200,
+    "bytes": 413066,
+    "sha256": "d4c5d9655875630eb655f10f495cd3d826bf793cd5d6240246e33eb7bada06cf"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html",
+    "file": "hps_2021.html",
+    "status": 200,
+    "bytes": 381206,
+    "sha256": "f4e985d4a685c1ceb8133ba5767f185c003b695462dcdf8b3434e1e9cb1a168e"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html",
+    "file": "hps_2022.html",
+    "status": 200,
+    "bytes": 361782,
+    "sha256": "ea213a3f969e7a859b11bbab24d59c8500fdcf6fdc028db353d1b5c2b583acbc"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html",
+    "file": "hps_2023.html",
+    "status": 200,
+    "bytes": 362287,
+    "sha256": "9e0ac3a695244045d50413a818486ef365907f89336f8f37ebc521c9f28470ec"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2024.html",
+    "file": "hps_2024.html",
+    "status": 200,
+    "bytes": 364049,
+    "sha256": "afacb69e2c7ff400c3fceba69aac09e21c62acbe94c1663a82b83d984a1202bc"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
+    "file": "hps_2025.html",
+    "status": 200,
+    "bytes": 340561,
+    "sha256": "c5274dbe3a4bf969ff684df75b12b3087e3d22eefa967db8a9b0c2c258e9595c"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html",
+    "file": "hps_technical.html",
+    "status": 200,
+    "bytes": 332521,
+    "sha256": "4c98329dd95fe8944a58a9a4d9934475665d76812a1a61ab6be1c364fa2b5327"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.data.2.AllStatesU",
+    "file": "la.data.2.AllStatesU",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.txt",
+    "file": "la.txt",
+    "status": 200,
+    "bytes": 18263,
+    "sha256": "8edf04c0c21ef474f3729d9f67ebe06679017c6789f6ca95415a4d5186095beb"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.series",
+    "file": "la.series",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle09/HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "file": "HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 55738425,
+    "sha256": "95b2f11023056d65bb01296f3c780cbc4cc0ee3cdbef28c1360d3880d61b9519"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2025/files/LLCP2025ASC.ZIP",
+    "file": "LLCP2025ASC.ZIP",
+    "status": 200,
+    "bytes": 43237365,
+    "sha256": "be4a9f167480b1ad788640e21d8b265660c12c87d54c121839c746f29d8fb734"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2025/zip/codebook25_llcp-v2-508.zip",
+    "file": "codebook25_llcp-v2-508.zip",
+    "status": 200,
+    "bytes": 97628,
+    "sha256": "70d920a440fd651a12f9dc62c100626a15ca2503774128ba2cbe62b056f861f3"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.data.2.AllStatesU?download=1",
+    "file": "la.data.2.AllStatesU",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.series?download=1",
+    "file": "la.series",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.measure?download=1",
+    "file": "la.measure",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.bls.gov/pub/time.series/la/la.area?download=1",
+    "file": "la.area",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.bls.gov/lau/rdscnp16.htm",
+    "file": "bls_population.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2025/llcp_varlayout_25_onecolumn.html",
+    "file": "layout2025.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.2024.html",
+    "file": "hps_tech2024.html",
+    "status": 200,
+    "bytes": 332531,
+    "sha256": "6b8bedd509ea2cbf6a4767c12a95939fda2f002ae053dcd7b9c298f75d22166c"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.2020.html",
+    "file": "hps_tech2020.html",
+    "status": 200,
+    "bytes": 332531,
+    "sha256": "f9efccb62a7042d10dd49c8bd59f5d4a2793a29f748358397967b8157e54b572"
+  },
+  {
+    "url": "https://www.bls.gov/web/laus/ststdnsadata.zip",
+    "file": "ststdnsadata.zip",
+    "status": 200,
+    "bytes": 2565459,
+    "sha256": "930ef88cc1e1ad1e31e83b95d66eaa5163a21738fe1e797b3a349d3f3b1563e2"
+  },
+  {
+    "url": "https://www.bls.gov/lau/staadata.zip",
+    "file": "staadata.zip",
+    "status": 200,
+    "bytes": 205241,
+    "sha256": "262aba7d00dfa727ba86b5745a1d90b016d7dddea97d7ac083c84556281fdcf9"
+  },
+  {
+    "url": "https://www.bls.gov/web/laus/ststdsadata.zip",
+    "file": "ststdsadata.zip",
+    "status": 200,
+    "bytes": 2552454,
+    "sha256": "7bb6f18d414574e284623e36b7f464e342ec769d3c68e782cc20ca502c887250"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.data.2.AllStatesU",
+    "file": "la.data.2.AllStatesU",
+    "status": 200,
+    "bytes": 12989736,
+    "sha256": "96cfbbfd2edb06d55af148efc91ad32a5474781d780636cdff16f560ad8674df"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk1/HPS_Week01_PUF_CSV.zip",
+    "file": "HPS_Week01_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 40857895,
+    "sha256": "0e56d5a517948c39d519706f18a473fc95345919b313574b04a072f030bd2226"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk13/HPS_Week13_PUF_CSV.zip",
+    "file": "HPS_Week13_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 110379609,
+    "sha256": "8d5490ce881aae4862bd241cf1f28ff41297bb3fa46576afe2f568efe7ebdea6"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk22/HPS_Week22_PUF_CSV.zip",
+    "file": "HPS_Week22_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 69762602,
+    "sha256": "b811353f6c88bd54a6c70d3004fe0aea4c0fbdf94787bbab627acecd22e18225"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk41/HPS_Week41_PUF_CSV.zip",
+    "file": "HPS_Week41_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 79696445,
+    "sha256": "10ded9cd7be2e761d47c59284c9aa0b1a16cb474ae37ec7a686462f030a87c0d"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk63/HPS_Week63_PUF_CSV.zip",
+    "file": "HPS_Week63_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 86631659,
+    "sha256": "74e0f6a49b35504aeadd495f2e69f72b235e48b2fe4d7f39d58f0fef7e6e69b4"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/source-accuracy.html",
+    "file": "hps_accuracy.html",
+    "status": 200,
+    "bytes": 338456,
+    "sha256": "7072be2c79d0cfd1787215b2dc1ab030a5d6853b26e22908bec66c57e37102a3"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/questionnaires.html",
+    "file": "hps_questionnaires.html",
+    "status": 200,
+    "bytes": 336740,
+    "sha256": "faa9f922d5a30957c47be2b2dc36a2af0a49de5b7117c0868654c084529e5273"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.html",
+    "file": "hps_usernotes.html",
+    "status": 200,
+    "bytes": 335714,
+    "sha256": "b8a847e286884fb87ead4d4f14d145a248cc780179b185a62d4418da6bc94022"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2019/files/LLCP2019ASC.zip",
+    "file": "LLCP2019ASC.zip",
+    "status": 200,
+    "bytes": 63804421,
+    "sha256": "66388a57c8780fe0568a0186af2338ce644c197ef4e0c13eab4e368f8fb204ca"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle01/HPS_Phase4Cycle01_PUF_CSV.zip",
+    "file": "HPS_Phase4Cycle01_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 73701503,
+    "sha256": "f3e9f3bf6a94dbc8a4b8d46e8720e8a1eb24ccda367c599716db89fc563aedb2"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle05/HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "file": "HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 77761268,
+    "sha256": "a0e1ce6900f0fd63ad54481cf7beb1a50a1c9c0e8a7cc36240797ad4d48b2cc5"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle09/HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "file": "HPS_Phase4-2Cycle09_PUF_CSV.zip",
+    "status": "cached",
+    "bytes": 55738425,
+    "sha256": "95b2f11023056d65bb01296f3c780cbc4cc0ee3cdbef28c1360d3880d61b9519"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle08/HPS_Phase4-2Cycle08_PUF_CSV.zip",
+    "file": "HPS_Phase4-2Cycle08_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 65109760,
+    "sha256": "cd42679457175df0b8aee022de47bda9125ed4938950daf3ea9cd4c937997e77"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle07/HPS_Phase4-1Cycle07_PUF_CSV.zip",
+    "file": "HPS_Phase4-1Cycle07_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 75889084,
+    "sha256": "08be2f74a25bbd05d519ab91d78fcf5855d6b6c53f639e7aeb80ffe9d511afea"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle06/HPS_Phase4-1Cycle06_PUF_CSV.zip",
+    "file": "HPS_Phase4-1Cycle06_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 77726959,
+    "sha256": "a08e0d2ad2dc94b4c78ff4221d0895c5c5992ee0c90c344387f3a3b728769403"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle05/HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "file": "HPS_Phase4-1Cycle05_PUF_CSV.zip",
+    "status": "cached",
+    "bytes": 77761268,
+    "sha256": "a0e1ce6900f0fd63ad54481cf7beb1a50a1c9c0e8a7cc36240797ad4d48b2cc5"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle04/HPS_Phase4-1Cycle04_PUF_CSV.zip",
+    "file": "HPS_Phase4-1Cycle04_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 79082536,
+    "sha256": "ac4661b1e342f6b0cc819c425bf6d8730bb610148b96f078ae5d0dff2806b82c"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle03/HPS_Phase4Cycle03_PUF_CSV.zip",
+    "file": "HPS_Phase4Cycle03_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 77152732,
+    "sha256": "62c0c379584975ce446d4ca115d41c0a5bdbeebfb98eb463f7e4bd0fda0c86e4"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle02/HPS_Phase4Cycle02_PUF_CSV.zip",
+    "file": "HPS_Phase4Cycle02_PUF_CSV.zip",
+    "status": 200,
+    "bytes": 76477316,
+    "sha256": "0f4a197682fb133e907b2d75d9875937fa07fe98e371267cd4300cad46b94d19"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle01/HPS_Phase4Cycle01_PUF_CSV.zip",
+    "file": "HPS_Phase4Cycle01_PUF_CSV.zip",
+    "status": "cached",
+    "bytes": 73701503,
+    "sha256": "f3e9f3bf6a94dbc8a4b8d46e8720e8a1eb24ccda367c599716db89fc563aedb2"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/source-accuracy.2024.html",
+    "file": "hps_source-accuracy_2024.html",
+    "status": 200,
+    "bytes": 346295,
+    "sha256": "1313d5b38fc72eb3364527a9fef2288d2388f81823cecd8642af6bbdc842f3c7"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/questionnaires.2024.html",
+    "file": "hps_questionnaires_2024.html",
+    "status": 200,
+    "bytes": 344921,
+    "sha256": "3b2a82bfbd56faf722f88063d62d7b4e790ea70028dc7c04a28739cf0f238204"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.2024.html",
+    "file": "hps_user-notes_2024.html",
+    "status": 200,
+    "bytes": 337387,
+    "sha256": "dcb465725510e7c15f0451701769d1a0c239b2d413822f9771fbb8917360ca88"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/questionnaires.2020.html",
+    "file": "hps_questionnaires_2020.html",
+    "status": 200,
+    "bytes": 344411,
+    "sha256": "8684d9f8dc0848dedd4f8f4471e88cfc85059106888da17dabd3901a867b3a15"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.2020.html",
+    "file": "hps_user-notes_2020.html",
+    "status": 200,
+    "bytes": 335807,
+    "sha256": "a2e950df4f7174f271544eab5319b066b22b1ce4c4432120c52c82bb5cd3b94d"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_2024_Household_Pulse_Survey_User_Notes_02222024.pdf",
+    "file": "Phase4-0_2024_Household_Pulse_Survey_User_Notes_02222024.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/October_2024_Household_Pulse_Survey_User_Notes_FINAL.pdf",
+    "file": "October_2024_Household_Pulse_Survey_User_Notes_FINAL.pdf",
+    "status": 200,
+    "bytes": 110895,
+    "sha256": "af30931a513f8c79a19ed354db7732691da234c5eeb825d607be0d46cffabe6e"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HTOPS_HPS_2502_CSV.zip",
+    "file": "HTOPS_HPS_2502_CSV.zip",
+    "status": 200,
+    "bytes": 10000405,
+    "sha256": "ce51ccb58ff55cc52e3d919bf106e0673e0b334de8e08cb3922e36c660258a72"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2019/pdf/codebook19_llcp-v2-508.HTML",
+    "file": "codebook2019.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2020/pdf/codebook20_llcp-v2-508.pdf",
+    "file": "codebook2020.pdf",
+    "status": 200,
+    "bytes": 1603108,
+    "sha256": "a1ec0976674d077fd0f431a9a2dfe5f1b7c0b4ec2e61a971d79c85de21547dcc"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2021/pdf/codebook21_llcp-v2-508.pdf",
+    "file": "codebook2021.pdf",
+    "status": 200,
+    "bytes": 3739258,
+    "sha256": "e32494346442ed357072947a8cc75ec77d48262a0e3932ed3baca90e6499c8bc"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2022/zip/codebook22_llcp-v2-508.zip",
+    "file": "codebook22_llcp-v2-508.zip",
+    "status": 200,
+    "bytes": 89270,
+    "sha256": "a2b6852972131929e9dc6d1a161a48a24429b61917e7e678e6d1239477796250"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2023/zip/codebook23_llcp-v2-508.zip",
+    "file": "codebook23_llcp-v2-508.zip",
+    "status": 200,
+    "bytes": 85594,
+    "sha256": "948cb7cd58bddde96eab61ab11a93e69ef4440ff3b62f9382895a7403407df4a"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2024/zip/codebook24_llcp-v2-508.zip",
+    "file": "codebook24_llcp-v2-508.zip",
+    "status": 200,
+    "bytes": 71439,
+    "sha256": "06c1c0e9c384d70c5b204e7869b1b1ad3f402a37a730c1d9a1f5aeee94fd1918"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.series",
+    "file": "la.series",
+    "status": 200,
+    "bytes": 4086542,
+    "sha256": "800ac6d4589ff9a714f27caa007c54263b0d66080a27a131206107c4d0fe68a0"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.measure",
+    "file": "la.measure",
+    "status": 200,
+    "bytes": 205,
+    "sha256": "b43486145486a91cf5f9cb1a1109b1a2a4ca0d0c5a9a7d5e0f7178949b5dfee7"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.area",
+    "file": "la.area",
+    "status": 200,
+    "bytes": 439599,
+    "sha256": "7f1dcbd6a2506d92d65641609cf08bd04f0a534503c6d0f23497f284dce1fc45"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.footnote",
+    "file": "la.footnote",
+    "status": 200,
+    "bytes": 752,
+    "sha256": "c6b626b0ec2fcd4a9c194e3998c8935b85cb5175b022f1353be13c22e2861268"
+  },
+  {
+    "url": "https://downloadt.bls.gov/pub/time.series/la/la.data.3.AllStatesS",
+    "file": "la.data.3.AllStatesS",
+    "status": 200,
+    "bytes": 10300000,
+    "sha256": "c4d9efe4b46618b75e8c7a6f7b4a9652e70beb6e301e4fcd290773bee4ac9737"
+  },
+  {
+    "url": "https://www.census.gov/about/policies/quality/guidelines/section4.html",
+    "file": "census_copyright.html",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.cdc.gov/other/agencymaterials.html",
+    "file": "cdc_copyright.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Source_and_Accuracy_October_2024_FINAL.pdf",
+    "file": "Source_and_Accuracy_October_2024_FINAL.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Source_and_Accuracy_October_2024_FINAL.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle09.pdf",
+    "file": "Phase4-2_Source_and_Accuracy_Cycle09.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle09.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle08.pdf",
+    "file": "Phase4-2_Source_and_Accuracy_Cycle08.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle08.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle07.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle07.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle07.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle06.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle06.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle06.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle05.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle05.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle05.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle04.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle04.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle04.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle03.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle03.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle03.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle02.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle02.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle02.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle01.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle01.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle01.pdf'"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_Questionnaire_October_2024.pdf",
+    "file": "HTOPS_Questionnaire_October_2024.pdf",
+    "status": 200,
+    "bytes": 287713,
+    "sha256": "0500af7e1d90196b72caf2f8b05a6f10adfd059940bae5bc893de695ae958229"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_Questionnaire_October_2024_Spanish.pdf",
+    "file": "HTOPS_Questionnaire_October_2024_Spanish.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_ENGLISH.pdf",
+    "file": "Phase_4-2_HPS_Questionnaire_ENGLISH.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_ENGLISH.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_SPANISH.pdf",
+    "file": "Phase_4-2_HPS_Questionnaire_SPANISH.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_SPANISH.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_English.pdf",
+    "file": "Phase_4-1_HPS_Questionnaire_English.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_English.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_Spanish.pdf",
+    "file": "Phase_4-1_HPS_Questionnaire_Spanish.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_Spanish.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_English.pdf",
+    "file": "Phase_4-0_HPS_Questionnaire_English.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_English.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_Spanish.pdf",
+    "file": "Phase_4-0_HPS_Questionnaire_Spanish.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_Spanish.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/October_2024_Household_Pulse_Survey_User_Notes_02062025.pdf",
+    "file": "October_2024_Household_Pulse_Survey_User_Notes_02062025.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/October_2024_Household_Pulse_Survey_User_Notes_02062025.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf",
+    "file": "Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf'"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_2024_Household_Pulse_Survey_User_Notes_06132024.pdf",
+    "file": "Phase4-1_2024_Household_Pulse_Survey_User_Notes_06132024.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_2024_Household_Pulse_Survey_User_Notes_06132024.pdf'"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_2024_Household_Pulse_Survey_User_Notes_03252026.pdf",
+    "file": "Phase4-0_2024_Household_Pulse_Survey_User_Notes_03252026.pdf",
+    "status": 200,
+    "bytes": 137302,
+    "sha256": "a618e40f56dfa1f0a3acbf72b3104c04ba0c303d06d292eae4d5a78a0e1b6748"
+  },
+  {
+    "url": "//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase2_2020_Household_Pulse_Survey_User_Notes_110420.pdf",
+    "file": "Phase2_2020_Household_Pulse_Survey_User_Notes_110420.pdf",
+    "status": "failed",
+    "error": "unknown url type: '//www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase2_2020_Household_Pulse_Survey_User_Notes_110420.pdf'"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Source_and_Accuracy_October_2024_FINAL.pdf",
+    "file": "Source_and_Accuracy_October_2024_FINAL.pdf",
+    "status": 200,
+    "bytes": 355574,
+    "sha256": "9795861e85cae40bbff4305feff7e80810229942bdf33dfa310316e5da5c09c9"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle09.pdf",
+    "file": "Phase4-2_Source_and_Accuracy_Cycle09.pdf",
+    "status": 200,
+    "bytes": 410559,
+    "sha256": "f38c32db45ad62b9f7060dca0a11670bc85db0a572a24744cda52e1670868c74"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_Source_and_Accuracy_Cycle08.pdf",
+    "file": "Phase4-2_Source_and_Accuracy_Cycle08.pdf",
+    "status": 200,
+    "bytes": 388771,
+    "sha256": "97a6e82a70dec53442823b975170f63175cb28bdf42d6e458949be53f9eac6a0"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle07.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle07.pdf",
+    "status": 200,
+    "bytes": 368026,
+    "sha256": "f9dc1c8d4a038fdf264fc727ade3637017c01d2e7e5b503fa537318053d01d4b"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle06.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle06.pdf",
+    "status": 200,
+    "bytes": 369197,
+    "sha256": "d06ed5b44184b00bb3608f61c71baebff37d1f439493f4f1d2ed9c5766d56d97"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle05.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle05.pdf",
+    "status": 200,
+    "bytes": 386614,
+    "sha256": "b04d3839684e958d23d9ce92841aacda36d32fcde790bb579aec3a3e57c82d74"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_Source_and_Accuracy_Cycle04.pdf",
+    "file": "Phase4-1_Source_and_Accuracy_Cycle04.pdf",
+    "status": 200,
+    "bytes": 383258,
+    "sha256": "c8ce7e2d52aeb500c5da5fa072f27f082e08f255e37c30472a616a08887471ef"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle03.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle03.pdf",
+    "status": 200,
+    "bytes": 384683,
+    "sha256": "1f07225984bfdf849784216e8fa049dd0865cc142716d2a596d33142db095baa"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle02.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle02.pdf",
+    "status": 200,
+    "bytes": 351027,
+    "sha256": "f6de08bbbef81f09e89620dc75a7a5d044c958a97c68b61ce2c1f797c95f06ae"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_Source_and_Accuracy_Cycle01.pdf",
+    "file": "Phase4-0_Source_and_Accuracy_Cycle01.pdf",
+    "status": 200,
+    "bytes": 379823,
+    "sha256": "fde1c63a13adc988425aa8143f2273cf81adce943836f55352c63e285a92ca78"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_Questionnaire_October_2024.pdf",
+    "file": "HTOPS_Questionnaire_October_2024.pdf",
+    "status": "cached",
+    "bytes": 287713,
+    "sha256": "0500af7e1d90196b72caf2f8b05a6f10adfd059940bae5bc893de695ae958229"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_Questionnaire_October_2024_Spanish.pdf",
+    "file": "HTOPS_Questionnaire_October_2024_Spanish.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_ENGLISH.pdf",
+    "file": "Phase_4-2_HPS_Questionnaire_ENGLISH.pdf",
+    "status": 200,
+    "bytes": 310296,
+    "sha256": "cdc7a5593db26f02ae0bc9333e7a818131385d573de600a34eb306db7f947008"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-2_HPS_Questionnaire_SPANISH.pdf",
+    "file": "Phase_4-2_HPS_Questionnaire_SPANISH.pdf",
+    "status": 200,
+    "bytes": 320717,
+    "sha256": "975246bfeb2a8b5b8d0607b22fc2900db6199accd9fb244ff69a063186873fe1"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_English.pdf",
+    "file": "Phase_4-1_HPS_Questionnaire_English.pdf",
+    "status": 200,
+    "bytes": 267363,
+    "sha256": "0e74f3f6491b652978f2083c7f7adf81d205b387e3bc2ba599f522eb05e6d214"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-1_HPS_Questionnaire_Spanish.pdf",
+    "file": "Phase_4-1_HPS_Questionnaire_Spanish.pdf",
+    "status": 200,
+    "bytes": 277710,
+    "sha256": "8182dcb8d11344a534cccdc72569dccff5337efa78b673ae7bc75afd63fe48ed"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_English.pdf",
+    "file": "Phase_4-0_HPS_Questionnaire_English.pdf",
+    "status": 200,
+    "bytes": 258667,
+    "sha256": "41223840d03a248aa2e67f5ca355ee86c08691b6d44dd9e6e17ec874ed1d0525"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_4-0_HPS_Questionnaire_Spanish.pdf",
+    "file": "Phase_4-0_HPS_Questionnaire_Spanish.pdf",
+    "status": 200,
+    "bytes": 270396,
+    "sha256": "136c825625963a5e7cc67da631909c873f4d936dbe238ee1e0d687ef6d6db9bc"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/October_2024_Household_Pulse_Survey_User_Notes_02062025.pdf",
+    "file": "October_2024_Household_Pulse_Survey_User_Notes_02062025.pdf",
+    "status": 200,
+    "bytes": 232890,
+    "sha256": "bf848c63b3301ce2e7a84c9e560be98347cecf579be9b6a0b9f959f0610ab860"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf",
+    "file": "Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf",
+    "status": 200,
+    "bytes": 173324,
+    "sha256": "a484e5a74ac23fb30009c30229f7cd36951f50f182084594dfd8c60285a1c40c"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-1_2024_Household_Pulse_Survey_User_Notes_06132024.pdf",
+    "file": "Phase4-1_2024_Household_Pulse_Survey_User_Notes_06132024.pdf",
+    "status": 200,
+    "bytes": 157859,
+    "sha256": "49a76c8eff7bf3ea57fdd2294a8e976ec83df502c8d3579531440a711ee13dd5"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-0_2024_Household_Pulse_Survey_User_Notes_03252026.pdf",
+    "file": "Phase4-0_2024_Household_Pulse_Survey_User_Notes_03252026.pdf",
+    "status": "cached",
+    "bytes": 137302,
+    "sha256": "a618e40f56dfa1f0a3acbf72b3104c04ba0c303d06d292eae4d5a78a0e1b6748"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_2_Questionnaire_11_2_20_Updated_English.pdf",
+    "file": "Phase_2_Questionnaire_11_2_20_Updated_English.pdf",
+    "status": 200,
+    "bytes": 150972,
+    "sha256": "87bfe2dc466f125c373f050f2a0c676422af84d0ae1e8c4e0a1cabe2553a5245"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_2_Questionnaire_11_2_20_Updated_Spanish.pdf",
+    "file": "Phase_2_Questionnaire_11_2_20_Updated_Spanish.pdf",
+    "status": 200,
+    "bytes": 164674,
+    "sha256": "3d528ba7b349f2c7ae7ca1e13a39646379b98ca97d731498bae0e22caae9f148"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_1_Questionnaire_06_11_20_English.pdf",
+    "file": "Phase_1_Questionnaire_06_11_20_English.pdf",
+    "status": 200,
+    "bytes": 351414,
+    "sha256": "05436e47844474e910b53dc2ffccdb6540eae6d5d877364dddd2c3a71256aca3"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase_1_Questionnaire_06_11_20_Spanish.pdf",
+    "file": "Phase_1_Questionnaire_06_11_20_Spanish.pdf",
+    "status": 200,
+    "bytes": 343603,
+    "sha256": "7150b708260ab2b8278cc42e2c20310a24d9bfdc8278d741e3f95d43e0828f44"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase2_2020_Household_Pulse_Survey_User_Notes_110420.pdf",
+    "file": "Phase2_2020_Household_Pulse_Survey_User_Notes_110420.pdf",
+    "status": 200,
+    "bytes": 152919,
+    "sha256": "5cbf92baf63ff9568eb58ddaf20d5985b714d08b4e0aac1bda7febd3d9df0e82"
+  },
+  {
+    "url": "https://www2.census.gov/foia/ds_policies/ds027.pdf",
+    "file": "ds027.pdf",
+    "status": 200,
+    "bytes": 331504,
+    "sha256": "ce11f92f99d636b9a096b704bdf717112d724132f74bf8a9ec2a69b6ca6716c5"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2024/cycle09/health6a_cycle09.xlsx",
+    "file": "health6a_cycle09.xlsx",
+    "status": 200,
+    "bytes": 727408,
+    "sha256": "889d72dfe5756121b51f0c5cba6bdf6d822ef306db2d0a1cd90356f158bed904"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2024/cycle01/health6a_cycle01.xlsx",
+    "file": "health6a_cycle01.xlsx",
+    "status": 200,
+    "bytes": 733431,
+    "sha256": "39939ca36639d4eedcf5803e29504c16f813805e76c3cf62968084b52238f054"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2019/pdf/codebook19_llcp-v2-508.pdf",
+    "file": "codebook2019.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.cdc.gov/brfss/annual_data/2019/files/SASOUT19_LLCP.SAS",
+    "file": "SASOUT19_LLCP.SAS",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Source_and_Accuracy_October_2024_FINAL.pdf",
+    "file": "Source_and_Accuracy_October_2024_FINAL.pdf",
+    "status": "cached",
+    "bytes": 355574,
+    "sha256": "9795861e85cae40bbff4305feff7e80810229942bdf33dfa310316e5da5c09c9"
+  },
+  {
+    "url": "https://www.bls.gov/lau/launews1.htm",
+    "file": "bls_important_information.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/source-accuracy.2025.html",
+    "file": "hps_source-accuracy_2025.html",
+    "status": 200,
+    "bytes": 336031,
+    "sha256": "9a7fdb383f1246539d58f1bd4803962df7d30d44ea6319376d7a9562801f23b6"
+  },
+  {
+    "url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.2025.html",
+    "file": "hps_user-notes_2025.html",
+    "status": 200,
+    "bytes": 335666,
+    "sha256": "5f76a6c16442e8da66e6122c23c24aaca82c01342de3fe388b2406ba9910d974"
+  }
+]
