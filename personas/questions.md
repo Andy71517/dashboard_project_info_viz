@@ -1,0 +1,38 @@
+Dashboard Project Part 1
+Working dashboard title: Economic Hardship and Social Well-Being During Pandemic Recovery
+Our scope: We chose two sources: the U.S. Census Bureau's Household Pulse Survey (HPS) for 2024 and the U.S. Bureau of Labor Statistics' Local Area Unemployment Statistics (LAUS) for 2019-2024. HPS gives us information about paying bills, work, income, loneliness, social support, and anxiety. LAUS gives us the longer employment and unemployment timeline. We also looked at the CDC's Behavioral Risk Factor Surveillance System (BRFSS), but we will keep it as an optional addition.
+What we checked: The nine 2024 HPS files contain 610,755 respondent records. After summarizing them by state and survey cycle, the code joined all 459 rows to LAUS with no unmatched records. HPS added its loneliness and support questions on January 9, 2024, so those comparisons cover January-September 2024. We use 2024 as the last complete year for LAUS because October 2025 is missing and its annual averages cover only 11 months. [1-5]
+1. Topic and question ladder
+Topic: Financial hardship and social well-being in the United States during the recovery from the COVID-19 pandemic.
+Broad question: Do better employment figures go along with less financial hardship and better social well-being?
+What we can measure: We can compare state employment and unemployment in 2019 and 2024. We can then look at how 2024 unemployment rates relate to trouble paying bills, loneliness, and social support. We will use the 2019 labor-market figures as a baseline for recovery. That does not mean every household recovered.
+Q1 Change over time
+Which states had a 2024 annual unemployment rate at or below their 2019 rate, and how did their 2020 unemployment peaks and later employment and labor-force trends differ?
+Measures: We will use the LAUS unemployment rate and the numbers of unemployed people, employed people, and people in the labor force. Their measure codes are 03, 04, 05, and 06. Rates are percentages; counts are people. We will compare published annual averages (M13), which are not seasonally adjusted (NSA), and use seasonally adjusted monthly values (M01-M12) for the timeline. Changes in rates will be shown in percentage points. [9]
+Unit of analysis: One row per state and month, with a separate table for annual averages. Both tables cover the 50 states and Washington, D.C.
+Who would care: Workforce agencies, local policymakers, and students could use this to see which states recovered faster and which fell behind.
+What would surprise us: A state might return to its old unemployment rate even though its employment and labor-force counts have changed in different ways.
+Q2 Unemployment and hardship
+In each 2024 HPS cycle, do states with lower unemployment rates also have a lower percentage of adults struggling to pay household expenses?
+Measures: EXPNS_DIF asks how difficult it was to pay usual household expenses in the last seven days. The answers are 1 not at all, 2 a little, 3 somewhat, and 4 very difficult. We will count codes 3-4 as hardship and use PWEIGHT to calculate the percentage of adults with valid answers. We will compare this with LAUS unemployment for the same state and an aligned time period. A scatterplot and rank correlation can show the relationship. We can also compare states with the median rates for each cycle.
+Unit of analysis: One row per state and survey cycle, giving 459 rows. This question needs the two sources joined by the two-digit state FIPS code and an aligned collection period. The LAUS figure describes the state, not each person in HPS.
+Who would care: Community organizations and policymakers could use this to see whether low unemployment reflects how easily people can pay their bills.
+What would surprise us: Some states could have low unemployment but high hardship. The state-level relationship could also be weaker than the differences between groups of HPS respondents.
+Q3 Work and income
+In each 2024 cycle, how does hardship differ between adults who worked for pay or profit in the last seven days and those who did not, within each of three household income groups?
+Measures: ANYWORK records whether someone worked in the last seven days: 1 yes or 2 no. We will compare the hardship measure from Q2 within income groups under $50,000 (INCOME codes 1-3), $50,000-$99,999 (4-5), and $100,000 or more (6-8). Income refers to 2023 household income before tax. We will use PWEIGHT for the percentages. Someone who did not work in the last seven days is not necessarily unemployed under the BLS definition.
+Unit of analysis: One row per location, cycle, and work/income group. We will start with national results and allow state comparisons when the sample is large enough. The prepared work_income field contains all six combinations.
+Who would care: Social-service organizations and student researchers could use this to understand hardship among working adults and the role of household income.
+What would surprise us: Working adults with low household incomes could still report high hardship, while some higher-income adults who did not work could report little hardship.
+Q4 Loneliness and anxiety by hardship
+In each 2024 cycle, how do frequent loneliness and anxiety differ between adults who struggle to pay household expenses and those with little or no difficulty?
+Measures: SOCIAL2 asks how often someone feels lonely: 1 always, 2 usually, 3 sometimes, 4 rarely, or 5 never. We will count always or usually as frequent loneliness. ANXIOUS asks how often someone felt anxious in the last two weeks: 1 not at all, 2 several days, 3 more than half the days, or 4 nearly every day. We will count codes 3-4 as frequent anxiety. We will compare EXPNS_DIF codes 3-4 with codes 1-2 and calculate each weighted percentage using valid answers to that question.
+Unit of analysis: One row per location, cycle, and hardship group. Each outcome has its own percentage, sample count, and confidence interval. The anxiety item measures a symptom; it does not give a clinical diagnosis.
+Who would care: Campus and community support services could use this to see where financial, social, and emotional needs overlap.
+What would surprise us: The gap between hardship groups could be much larger for anxiety than for loneliness. A pattern seen nationally might also be weaker in a particular state.
+Q5 Age differences across states
+In each 2024 cycle, how do loneliness and lack of social support differ across the approximate age groups 18-34, 35-64, and 65 or older, and do we see the same pattern within individual states?
+Measures: SOCIAL1 asks how often someone gets the social and emotional support they need, using the same always-to-never scale as SOCIAL2. We will count sometimes, rarely, or never (codes 3-5) as lack of support, following the CDC definition. Loneliness uses the definition in Q4. We will estimate age as 2024 minus TBIRTH_YEAR and use broad age groups because the birth-year field is capped at both ends. The calculations use PWEIGHT and its replicate weights. [15]
+Unit of analysis: One row per location, cycle, and age group. Viewers can move from the United States to a state and then compare age groups.
+Who would care: Student affairs teams, community organizations, and public-health researchers could use this to check which age groups report the greatest need for support.
+What would surprise us: Younger adults might report more loneliness than older adults, or a state might show the opposite of the national pattern. The age pattern for loneliness could also differ from the pattern for lack of support.
