@@ -1,4 +1,6 @@
-# Local execution and validation
+# Historical Step 0 execution and validation
+
+This records the November 10 baseline. See [Round 1 validation](ROUND1_VALIDATION.md) for the latest executed notebook and expanded chart set.
 
 Validated on November 10, 2026, against the original source files acquired for this project on November 2, 2026.
 

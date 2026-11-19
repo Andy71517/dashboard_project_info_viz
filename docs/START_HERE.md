@@ -2,6 +2,8 @@
 
 This notebook covers the assignment screenshot's **Step 0: clean and explore the data**. It prepares the data and briefing for a stakeholder discussion. It does not invent stakeholder interviews or build the dashboard.
 
+**Updated stage:** The notebook now includes Charts 1–23 and the completed Round 1 follow-up analysis. Virginia is the default. See [Round 1 closeout](../personas/round1_completion.md) and [next conversation](../personas/round2_handoff.md). The six-chart descriptions below are the initial briefing subset.
+
 ## 1 Open the notebook
 
 1. Download **[COVID_Recovery_Step0.ipynb](../notebooks/COVID_Recovery_Step0.ipynb)** from this repository, or use the Open in Colab button in the main README.
@@ -10,7 +12,7 @@ This notebook covers the assignment screenshot's **Step 0: clean and explore the
 4. Give your notebook a team name and save a copy in your Google Drive.
 5. Use a standard CPU runtime. No GPU or paid runtime is needed.
 
-The notebook already contains the results of a local execution so you can inspect the finished charts. Run it yourself in Colab to create the files in your own workspace. Local execution does not mean the notebook has already run in your Google account.
+The notebook already contains the results of a local execution so you can inspect the finished charts. Run it yourself in Colab to create the files in your own workspace. The expanded notebook retains the full preparation; follow-up cells do not invent later persona replies. Local execution does not mean the notebook has already run in your Google account.
 
 ## 2 Load the small BLS support ZIP
 
@@ -52,7 +54,7 @@ Use each code cell's ▶ button. Read the explanation above the cell first. You 
 | 7 BLS | Run state/month/year preparation | 7,344 monthly rows and 306 annual rows |
 | 8 Join | Run time alignment and join | 459 joined rows; zero unmatched left and right |
 | 9 Evidence | Read the missingness and cleaning logs | Issues have actual affected-row counts |
-| 10 Charts | Run all six chart cells | Titles, units, sources, and data-derived captions |
+| 10 Charts | Run all initial and follow-up chart cells | Titles, units, sources, and data-derived captions |
 | 11 Drill-down | Inspect age groups nationally and in New York | Small groups are flagged/hidden, not replaced with zero |
 | 12–13 Export | Run the export cell and download the ZIP | HTML briefing, charts, aggregate data, logs, provenance |
 
@@ -83,17 +85,17 @@ In the first code cell, edit:
 
 ```python
 FOCUS_CYCLE = 9
-FOCUS_STATE = "36"
-TIMELINE_STATES = ["06", "36", "48"]
+FOCUS_STATE = "51"
+TIMELINE_STATES = ["06", "36", "48", "51"]
 ```
 
-`36` is New York, `06` is California, and `48` is Texas. FIPS codes must stay text with two digits. After changing a setting, rerun the first code cell and all chart, drill-down, and export cells. Use **Run all** if unsure. The default briefing uses Cycle 9; the title and captions identify the actual collection dates.
+`51` is Virginia, `36` is New York, `06` is California, and `48` is Texas. FIPS codes must stay text with two digits. After changing a setting, rerun the first code cell and all chart, drill-down, and export cells. Use **Run all** if unsure. The default briefing uses Cycle 9; the title and captions identify the actual collection dates.
 
 Do not calculate the hardship percentage within a group already defined as having hardship and treat its 100% as a discovery. Similarly, avoid the support outcome within groups defined by that same support outcome. Those rows exist for other outcome comparisons.
 
 ## 8 Save your outputs
 
-Download **COVID_Step0_Briefing_Pack.zip** from the project folder. Extract it and open **briefing_pack.html** in a browser. All six images are embedded, so the briefing can be shared as a single HTML file. Save the notebook too using **File → Download → Download .ipynb**.
+Download **COVID_Step0_Briefing_Pack.zip** from the project folder. Extract it and open **briefing_pack.html** in a browser. All 23 images are embedded, so the briefing can be shared as a single HTML file. Save the notebook too using **File → Download → Download .ipynb**.
 
 Runtime-only files disappear when Colab resets. A Drive-based project persists in Drive. Review your own saved outputs before submitting.
 

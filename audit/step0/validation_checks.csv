@@ -194,6 +194,16 @@ raw size requirement,True,626667
 chart 3 available estimates,True,6
 chart 4 available estimates,True,2
 chart 5 state count,True,51
+chart 7 national estimates,True,3
+chart 8 jurisdictions,True,51
+chart 9 state count,True,51
+chart 10 nine cycles,True,9
+chart 11 state count,True,51
+chart 12 nine cycles,True,9
+chart 13 missingness grid,True,"(6, 9)"
+chart 14 rows,True,459
+chart 15 group rows,True,54
+chart 16 group rows,True,18
 privacy export age_drilldown_selected.csv,True,no forbidden respondent fields
 privacy export alignment_sensitivity.csv,True,no forbidden respondent fields
 privacy export bls_raw_row_counts.csv,True,no forbidden respondent fields
@@ -214,4 +224,4 @@ privacy export row_counts_by_stage.csv,True,no forbidden respondent fields
 privacy export spotcheck_20_summary.csv,True,no forbidden respondent fields
 privacy export state_recovery_2019_2024.csv,True,no forbidden respondent fields
 privacy export validation_checks.csv,True,no forbidden respondent fields
-six briefing charts,True,6
+briefing charts,True,23

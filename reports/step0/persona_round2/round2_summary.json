@@ -1,9 +1,14 @@
 {
   "focus_state": "51",
   "focus_cycle": 9,
-  "new_charts": 6,
-  "new_tables": [
-    "state_recovery_table_with_flags.csv"
-  ],
-  "notes": "Generated from processed exports only; no notebook rerun and no external docs required."
+  "charts": 7,
+  "state_cycle_rows": 459,
+  "recovery_states": 51,
+  "focus_work_income_suppressed": 1,
+  "exact_rate_at_or_below_count": 21,
+  "within_point1_count": 6,
+  "round1_followup_analysis": "completed",
+  "round2_persona_responses": "not generated",
+  "preparation_only": true,
+  "canonical_directory": "reports/round1_followup"
 }

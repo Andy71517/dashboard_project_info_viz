@@ -1,0 +1,18 @@
+id,request,requested_by,status,reason
+1,Sortable annual-rate table,Maya,answered,"51-state sortable HTML and CSV include 2019, 2020 and 2024 annual rates."
+2,"Exact recovery, ties and rounding",Maya,answered,Integer tenths implement exact <=0; a separate +/-0.1 display band handles rounding without redefining recovery.
+3,2020 monthly peaks,Maya,answered,Seasonally adjusted monthly peaks and all tied months are recorded separately from annual averages.
+4,Employment/labor-force changes and decline flags,Maya,answered,"Counts, percentage changes and separate flags for both employment and labor-force declines are exported."
+5,State-by-cycle hardship and reliability,Both,answered,"459 rows include 90% intervals, valid n, Kish effective n, missingness and explicit project-rule flags."
+6,"Descriptive association, not need targeting",Maya,answered,Captions and methods distinguish a point association and state-resampling sensitivity from survey inference or a targeting rule.
+7,Virginia work/income and social outcomes,Maya,partially answered,Intervals and valid n are shown. The Cycle 9 worked/under-$50k hardship cell remains suppressed (valid n=98); no pooling or imputation.
+8,Uncertainty and ties in rankings,Maya,partially answered,Marginal intervals and rounded display ties are supplied; they do not establish pairwise differences or statistical ties. Covariance/replicate contrasts are needed.
+9,Explain the Cycle 8 missingness change,Both,partially answered,Census confirms prepaid-wireless frame expansion and comparability warning. Its causal contribution to the observed missingness decline cannot be identified here.
+10,Hardship percentage and affected adults,Jordan,answered,Point counts and valid-population denominators accompany percentages. Count intervals are not available from marginal percentage CIs; counts are not clients.
+11,Reliable state work/income breakouts,Jordan,partially answered,All states/cycles and a suppression map are available; unreliable cells remain hidden rather than filled in.
+12,Missing-data note on relevant views,Jordan,answered,"Chart captions, state profile and all-cycle evidence tables identify valid-answer denominators and missingness."
+13,Avoid reading cycle changes as demand changes,Jordan,answered,Cycle 8 frame-change markers and comparability warnings appear on the cycle-trend views; Phase 4.2 is not joined into a clean recovery trend.
+14,"Reliable age subgroups, national vs state",Both,answered,Both loneliness and support have 90% intervals and suppression flags; separate national/state estimates and an all-state age reliability map are provided.
+15,Q4 conditioned on income,"Analyst suggestion, not a persona request",out of scope,Optional additional hypothesis. Current marginal aggregates do not identify this intersection; new respondent-level cross-tabs/variance work would be required.
+16,County or service-area indicators,Jordan,not answerable with this data,"Selected exports support states, not counties or client service areas. Metro identifiers in some raw files do not provide county coverage."
+17,"Requests, waitlists, referral capacity and language access",Jordan,out of scope,These operational measures require Community Bridge data; HPS/LAUS do not measure them.

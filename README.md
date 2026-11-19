@@ -4,13 +4,15 @@ This is our university information visualization project. We are studying whethe
 
 We use **Census Household Pulse Survey (HPS), 2024 Cycles 1–9**, and **BLS Local Area Unemployment Statistics (LAUS), 2019–2024**. BRFSS was evaluated in Part 1 and remains optional. The dashboard has not been built yet.
 
+**Current stage:** [Round 1 closeout](personas/round1_completion.md) is complete with explicit request dispositions. Use the [Round 2 handoff](personas/round2_handoff.md) for the next persona conversation. The [review](personas/round1_review.md) and [new evidence pack](reports/round1_followup/state_profile_focus.html) record what was changed and what remains limited by the data.
+
 ## Start with the completed notebook
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Andy71517/dashboard_project_info_viz/blob/main/notebooks/COVID_Recovery_Step0.ipynb)
 
 **[View the notebook with saved outputs](notebooks/COVID_Recovery_Step0.ipynb)** · **[Step-by-step walkthrough](docs/START_HERE.md)** · **[Local validation results](docs/LOCAL_VALIDATION.md)**
 
-The notebook contains the complete preparation code, weighted estimates, missingness and cleaning logs, join checks, 20 automated raw-to-processed comparisons, six exploratory charts, and an exportable stakeholder briefing. Its outputs are saved, so the tables and charts can be read before rerunning it.
+The notebook contains the complete preparation code, weighted estimates, missingness and cleaning logs, join checks, 20 automated raw-to-processed comparisons, the original six charts, the student-added Charts 7–16, and seven corrected follow-up views, and an exportable stakeholder briefing. Its outputs are saved, so the tables and charts can be read before rerunning it. Virginia is the default state for the persona follow-ups.
 
 1. Click **Open in Colab** above and save your own copy in Drive.
 2. Download **[Step0_Colab_Support.zip](downloads/Step0_Colab_Support.zip)**. In Colab's Files panel, upload it into `/content` and leave it zipped. This supplies the exact BLS snapshot used in the report.
@@ -23,17 +25,19 @@ The notebook was executed **locally** against the audited source files. Running 
 
 | Location | Contents |
 |---|---|
-| [notebooks/](notebooks/) | Complete executed Step 0 notebook with tables and six inline figures |
+| [notebooks/](notebooks/) | Complete executed Step 0 notebook with tables and 23 inline figures |
 | [data/processed/](data/processed/) | Aggregate HPS estimates, BLS monthly/annual tables, the tested join, and drill-down/recovery tables |
 | [audit/step0/](audit/step0/) | Cleaning decisions, missingness, provenance, checks, counts, alignment sensitivity, and public spot-check summary |
-| [reports/step0/](reports/step0/) | Six chart images, captions, and the self-contained HTML briefing |
+| [reports/step0/](reports/step0/) | 23 chart images, captions, and the updated self-contained HTML briefing |
+| [reports/round1_followup/](reports/round1_followup/) | Sortable recovery table, all-cycle reliability evidence and seven follow-up figures |
+| [personas/](personas/) | Original Round 1 conversations, corrected review, request dispositions and next-round handoff |
 | [reports/phase1/](reports/phase1/) | Final Word submission and the detailed data research report |
 | [docs/](docs/) | Walkthrough, validation notes, and official source dictionaries/methodology |
 | [downloads/](downloads/) | Small frozen BLS support ZIP for reproducing our report |
 | [scripts/phase1/](scripts/phase1/) | Earlier acquisition/preparation scripts and original download manifest |
 | [audit/phase1/](audit/phase1/) | Candidate-source audit, including inspected historical samples and BRFSS |
 
-Download [briefing_pack.html](reports/step0/briefing_pack.html) and open it in a browser to read the initial briefing. Its six chart images are embedded, so it works without a server. GitHub itself may display the HTML source rather than the rendered page. This repository does not automatically deploy a website.
+Download [briefing_pack.html](reports/step0/briefing_pack.html) and open it in a browser to read the initial briefing. Its 23 chart images are embedded, so it works without a server. GitHub itself may display the HTML source rather than the rendered page. This repository does not automatically deploy a website.
 
 ## Verified checkpoints
 
@@ -41,7 +45,7 @@ Download [briefing_pack.html](reports/step0/briefing_pack.html) and open it in a
 - **8,892** weighted HPS national/state/group rows. These are overlapping views, not independent respondents.
 - **7,344** BLS monthly rows and **306** published annual rows for the project scope.
 - **459** joined state-cycle rows, with **zero** unmatched keys on either side.
-- **208** cleaning decisions and **216** passing notebook checks.
+- **208** original cleaning decisions; current passing notebook checks are recorded in `audit/step0/run_summary.json`. The Round 1 checker additionally verifies decimal boundaries, peak ties, decline flags, suppression and coverage.
 - **20/20** automated raw-to-processed case checks passed, covering **180** field comparisons.
 - All 8,892 aggregate rows reproduced the earlier verified preparation. Four previously checked Census published-table benchmarks reproduced within one person of rounded totals.
 
@@ -65,10 +69,11 @@ To check the committed project without downloading raw data:
 
 ```bash
 python scripts/check_repository.py
+python scripts/check_round1.py
 ```
 
 For optional local execution, use Python 3.12 and install `requirements.txt`; the notebook is the main Step 0 workflow. The older Phase 1 scripts have their own requirements and [instructions](scripts/phase1/README.md).
 
 ## AI use and review status
 
-AI helped research and inspect the original files, write and run preparation code, create the notebook and charts, and draft the documentation. Automated execution and comparison checks are recorded. Human team review, approval of the interpretation, and stakeholder discussions are still pending. No stakeholder conversation has been invented.
+AI helped research and inspect the original files, write and run preparation code, create the notebook and charts, and draft the documentation. Automated execution and comparison checks are recorded. The team's original Round 1 persona role-play replies are now recorded under `personas/`. This update implements their analytical follow-ups and explicitly records partial/unavailable requests. Manual review of the private 20-case comparison and approval of interpretation remain team tasks. No Round 2 replies, Round 3 challenge, or final dashboard requirements have been invented.

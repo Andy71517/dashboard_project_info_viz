@@ -28,11 +28,13 @@ def rows(relative):
 notebook = json.loads((ROOT / "notebooks/COVID_Recovery_Step0.ipynb").read_text(encoding="utf-8"))
 require("Notebook uses format 4", notebook["nbformat"] == 4)
 code_cells = [cell for cell in notebook["cells"] if cell["cell_type"] == "code"]
-require("All 19 code cells have execution counts", len(code_cells) == 19 and
+require("All current code cells have execution counts", len(code_cells) >= 29 and
         all(cell.get("execution_count") is not None for cell in code_cells))
 outputs = [output for cell in code_cells for output in cell.get("outputs", [])]
 require("Notebook has no error outputs", all(output["output_type"] != "error" for output in outputs))
-require("Notebook has six saved inline figures", sum("image/png" in output.get("data", {}) for output in outputs) == 6)
+manifest_rows = rows("reports/step0/chart_captions.csv")
+require("Notebook has every current saved inline figure", len(manifest_rows) == 23 and
+        sum("image/png" in output.get("data", {}) for output in outputs) == len(manifest_rows))
 for cell in code_cells:
     source = cell["source"]
     compile("".join(source) if isinstance(source, list) else source, "notebook cell", "exec")
@@ -54,11 +56,24 @@ spotcheck = rows("audit/step0/spotcheck_20_summary.csv")
 require("20 successful automated spot-checks", len(spotcheck) == 20 and
         all(row["all_passed"].lower() == "true" for row in spotcheck))
 validation = rows("audit/step0/validation_checks.csv")
-require("All 216 recorded notebook checks passed", len(validation) == 216 and
+run_summary = json.loads((ROOT / "audit/step0/run_summary.json").read_text())
+require("All recorded notebook checks passed", len(validation) == run_summary["validation_checks"] and len(validation) >= 216 and
         all(row["passed"].lower() == "true" for row in validation))
 require("208 recorded cleaning decisions", len(rows("audit/step0/cleaning_decisions.csv")) == 208)
-require("Six chart files", len(list((ROOT / "reports/step0/charts").glob("*.png"))) == 6)
-require("Briefing embeds all six figures", (ROOT / "reports/step0/briefing_pack.html").read_text(encoding="utf-8").count("data:image/png;base64,") == 6)
+require("Every current chart file exists", len(list((ROOT / "reports/step0/charts").glob("*.png"))) == len(manifest_rows) and
+        all((ROOT / "reports/step0/charts" / row["file"]).exists() for row in manifest_rows))
+require("Briefing embeds every current figure", (ROOT / "reports/step0/briefing_pack.html").read_text(encoding="utf-8").count("data:image/png;base64,") == len(manifest_rows))
+request_status = rows("personas/round1_request_status.csv")
+require("17 Round 1 requests have explicit dispositions", len(request_status) == 17 and
+        {row["id"] for row in request_status} == {str(i) for i in range(1,18)} and
+        all(row["status"] in {"answered","partially answered","not answerable with this data","out of scope"} and row["reason"] for row in request_status))
+recovery = rows("reports/round1_followup/state_recovery_table_with_flags.csv")
+virginia = next(row for row in recovery if row["state_fips"] == "51")
+require("Virginia's one-tenth boundary is correctly classified", virginia["rounding_band"] == "Within +/-0.1 pp" and
+        virginia["published_rate_at_or_below_2019"].lower() == "false")
+require("All 459 follow-up state cycles retained", len(rows("reports/round1_followup/state_hardship_by_cycle.csv")) == 459)
+require("Seven follow-up charts include age reliability", len(rows("reports/round1_followup/chart_captions.csv")) == 7 and
+        (ROOT/"reports/round1_followup/charts/23_reliability_heatmap_age.png").exists())
 
 forbidden_fields = {"SCRAM", "SCRAMID", "TBIRTH_YEAR", "ABIRTH_YEAR", "SEQNO", "IDATE", "_PSU", "respondent_id", "raw_row_position"}
 for path in ROOT.rglob("*.csv"):

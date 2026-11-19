@@ -1,3 +1,5 @@
+> Historical Round 1 prompt as originally shared. The corrected [datasheet](datasheet_summary.md) and [handoff](round2_handoff.md) supersede its preliminary missingness/inference wording for the next conversation. Original transcripts are unchanged.
+
 These are the 5 questions we are asking. First, identify which questions matter to you, and which don't, and what you want to know next. You are allowed to dismiss questions and raise new ones. 
 
 Q1 Change over time
