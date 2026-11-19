@@ -1,0 +1,9 @@
+{
+  "focus_state": "51",
+  "focus_cycle": 9,
+  "new_charts": 6,
+  "new_tables": [
+    "state_recovery_table_with_flags.csv"
+  ],
+  "notes": "Generated from processed exports only; no notebook rerun and no external docs required."
+}
