@@ -14,16 +14,19 @@ This notebook covers the assignment screenshot's **Step 0: clean and explore the
 
 The notebook already contains the results of a local execution so you can inspect the finished charts. Run it yourself in Colab to create the files in your own workspace. The expanded notebook retains the full preparation; follow-up cells do not invent later persona replies. Local execution does not mean the notebook has already run in your Google account.
 
-## 2 Load the small BLS support ZIP
+## 2 BLS files load automatically
 
-1. Download **[Step0_Colab_Support.zip](../downloads/Step0_Colab_Support.zip)** from this repository.
-2. In Colab, open the **Files** panel on the left.
-3. Upload this ZIP to the top-level runtime folder, `/content`. Leave it zipped.
-4. The first code cell loads the BLS files from it automatically.
+The input cell restores missing BLS files from the small support archive in a pinned repository revision. Both the archive and its seven files must match the original fingerprints. This avoids the HTTP 403 error that BLS can return to Colab. The source is still BLS; the repository archive preserves the exact previously downloaded bytes.
 
-This ZIP contains the original BLS files used in the report, their metadata, and the input manifest. It is about 3 MB. BLS revises its live data; this copy lets us repeat the report's results. It was retrieved November 2, 2026, and is deliberately a fixed snapshot, not a claim to contain the newest release.
+If the repository download is blocked too:
 
-The setup cell preserves existing files. If your `raw` folder already contains a different BLS version, move those BLS files into a separate backup folder before rerunning setup with the support ZIP.
+1. Download **[Step0_Colab_Support.zip](../downloads/Step0_Colab_Support.zip)** in your browser.
+2. Upload it through Colab's Files panel into `/content`. Leave it zipped.
+3. Rerun the input/download cell. The updated cell detects the upload directly.
+
+If you are using an older saved copy of the notebook, rerun its setup cell before rerunning the failed input cell. There is no need to restart the runtime or discard your existing HPS downloads.
+
+The support ZIP is about 3 MB and contains the exact BLS snapshot retrieved November 2, 2026. It is not the newest release. Existing files are preserved; a different existing version still triggers the normal source-change check. Preserve those files separately if you deliberately want to switch snapshots.
 
 ## 3 Choose how to supply HPS
 
@@ -111,7 +114,7 @@ We can now describe patterns and ask stakeholders what decisions they need to ma
 ## If something fails
 
 - **Fingerprint mismatch:** use the supplied BLS support ZIP for the report's exact snapshot. If you intentionally accept a revised BLS release, preserve it separately, review the revision and set `ALLOW_REVISED_BLS = True`. HPS changes still stop for review.
-- **BLS download blocked:** upload the support ZIP into `/content` and rerun setup. No API key is needed.
+- **BLS download blocked:** the updated notebook automatically uses the verified repository archive. If that also fails, upload the support ZIP into `/content` and rerun the input cell. For an older notebook copy, rerun setup first. No API key is needed.
 - **HPS download interrupted:** rerun the input cell. Completed inputs are reused; partial downloads are not treated as complete files.
 - **Missing archive or weight file:** use the original Census CSV ZIP for each cycle, not a manually assembled CSV or a published aggregate table.
 - **Wrong folder:** use the raw-folder path printed by the first code cell. Drive and runtime storage are different places.

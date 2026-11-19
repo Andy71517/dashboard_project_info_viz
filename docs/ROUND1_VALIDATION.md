@@ -28,3 +28,9 @@ Run `python scripts/check_repository.py` for the committed artifact/link/privacy
 The [methods note](ROUND1_METHODS.md) separates the documented Phase 4.2 frame change from the unidentified cause of missingness, point adult counts from count uncertainty, and marginal intervals from formal ranking tests. The [next-round handoff](../personas/round2_handoff.md) contains questions to ask, not invented replies.
 
 During publication, remote commit `8970b6e` added `reports/step3_requirement.md`. That authored draft was preserved and merged. A status note identifies it as a working proposal pending the later-round feedback, without rewriting its body or treating it as evidence those conversations occurred.
+
+## Subsequent BLS access repair
+
+The acquisition cell was tested again after a Colab HTTP 403 report for `la.txt`. It now retrieves the exact verified BLS support archive from a pinned repository revision when files are absent, while retaining both official BLS hosts as a fallback. It also recognizes a manual upload directly in the input cell. Existing inputs are preserved; archive and member fingerprints remain mandatory.
+
+Eight regression tests passed, covering simulated BLS 403s, both official-host directions, local/offline recovery, corrupted archives, altered member fingerprints, existing-file preservation, and an informative fully-blocked-network failure. A live run of the actual acquisition cell started without all seven BLS files, restored them from the repository archive, and matched all 16 original input fingerprints. All 39 code-cell outputs and 23 figures were retained. The updated repository check passed 484 checks. This does not claim execution in the user's Colab account.

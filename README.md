@@ -15,7 +15,7 @@ We use **Census Household Pulse Survey (HPS), 2024 Cycles 1–9**, and **BLS Loc
 The notebook contains the complete preparation code, weighted estimates, missingness and cleaning logs, join checks, 20 automated raw-to-processed comparisons, the original six charts, the student-added Charts 7–16, and seven corrected follow-up views, and an exportable stakeholder briefing. Its outputs are saved, so the tables and charts can be read before rerunning it. Virginia is the default state for the persona follow-ups.
 
 1. Click **Open in Colab** above and save your own copy in Drive.
-2. Download **[Step0_Colab_Support.zip](downloads/Step0_Colab_Support.zip)**. In Colab's Files panel, upload it into `/content` and leave it zipped. This supplies the exact BLS snapshot used in the report.
+2. Run the input cells. Missing BLS files load automatically from the fingerprint-verified support archive in a pinned revision of this repository, avoiding BLS's Colab HTTP 403 blocks. If that download is blocked too, upload **[Step0_Colab_Support.zip](downloads/Step0_Colab_Support.zip)** into `/content` and rerun the input cell. Leave the archive zipped.
 3. Follow the notebook in order. It can download missing HPS ZIPs from Census, or reuse the original nine ZIPs you already have. The walkthrough explains the Drive option.
 4. Review the results and download the generated briefing ZIP. The detailed 20-row table stays in your private workspace for manual team review.
 
@@ -70,6 +70,7 @@ To check the committed project without downloading raw data:
 ```bash
 python scripts/check_repository.py
 python scripts/check_round1.py
+python scripts/test_bls_snapshot.py
 ```
 
 For optional local execution, use Python 3.12 and install `requirements.txt`; the notebook is the main Step 0 workflow. The older Phase 1 scripts have their own requirements and [instructions](scripts/phase1/README.md).

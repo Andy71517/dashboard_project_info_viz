@@ -8,5 +8,8 @@
   "notebook_validation_checks": 226,
   "round1_requests": 17,
   "manual_team_review": "Pending",
-  "round2_responses_generated": false
+  "round2_responses_generated": false,
+  "bls_snapshot_regression_tests": 8,
+  "bls_live_missing_file_recovery": 7,
+  "verified_input_fingerprints_after_recovery": 16
 }
