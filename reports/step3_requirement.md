@@ -1,7 +1,10 @@
 # Dashboard Requirements Document
 
 **Economic Hardship and Social Well-Being During Pandemic Recovery**  
+**Group 6 — Anirudh Reddy Alledula · Shane Malamut · Yuxing Zhou**  
 *Project Part 2 — Step 3 | November 2026*
+
+**LLM interviews:** Maya Rodriguez and Jordan Lee — **GPT-5.6 Terra** (HOKIEAI ONEchat); Dr. Elena Chen — **GPT-6** (simulated ChatGPT interview).
 
 ## 1. The Real Need
 
