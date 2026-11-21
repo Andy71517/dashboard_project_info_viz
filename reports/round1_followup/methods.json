@@ -1,10 +1,10 @@
 {
-  "phase42_note": "Cycle 8 starts Phase 4.2. Census added prepaid wireless numbers to the contact frame and warned that response rates and sample composition may change. This does not identify the cause or size of the observed missingness drop. Cycle shifts are not service-demand changes.",
+  "phase42_note": "Cycle 8 starts Phase 4.2. Census added prepaid wireless numbers to the contact frame and warned that response rates and sample composition may change. This does not identify the cause or size of the observed missingness drop. Changes between cycles do not measure changes in service demand.",
   "phase42_source": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/Phase4-2_2024_Household_Pulse_Survey_User_Notes_09122024.pdf",
   "source_page": 1,
   "recovery_rule": "Integer tenths of published rates; exact <=0 and separate +/-0.1 display band",
   "peak_rule": "Maximum 2020 seasonally adjusted monthly rate; all tied months retained",
-  "ranking_policy": "Order is descriptive. Interval overlap is not a test of equality, difference, or rank. A state and the U.S. estimate share respondents.",
+  "ranking_policy": "We sort states to make comparison easier, not to establish a statistical ranking. Overlapping intervals do not test whether estimates are equal or different. Each state also contributes respondents to the U.S. estimate.",
   "count_intervals": "Not estimated from marginal percentage intervals",
   "covariance": "Absent from aggregate exports; no pairwise or national significance claims",
   "project_rule": "valid n>=100 and Kish effective n>=30; not a representativeness guarantee",

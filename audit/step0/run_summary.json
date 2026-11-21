@@ -16,15 +16,15 @@
   "validation_failures": 0,
   "charts": 23,
   "focus_cycle": 9,
-  "state_spearman_descriptive": 0.0955656108597285,
+  "state_spearman_descriptive": 0.09556561085972852,
   "midpoint_spearman_descriptive": 0.12980325835846404,
-  "max_alignment_difference_pp": 0.476004677883016,
+  "max_alignment_difference_pp": 0.47600467788301604,
   "jurisdictions_rate_at_or_below_2019": 21,
   "runtime": "local Python when validated by the author; rerun in your own Colab session",
   "versions": {
-    "python": "3.12.14",
+    "python": "3.12.2",
     "numpy": "2.5.4",
-    "pandas": "3.0.1",
+    "pandas": "3.1.1",
     "matplotlib": "3.11.2"
   }
 }
