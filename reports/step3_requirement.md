@@ -1,8 +1,8 @@
 # Step 3: Dashboard Requirements Document
 
-> **Working draft:** This requirements proposal is preserved from the concurrent repository update. It does not establish that Round 2 or Round 3 has been completed. See the [Round 1 closeout](../personas/round1_completion.md) before proceeding.
+> **Revised Phase 2 requirements — 2026-11-21.** Incorporates the recorded [Round 2 Maya/Jordan replies](../personas/round2_completion.md), a transparently **AI-simulated** [Dr. Elena Chen Round 3 critique](../personas/round3_elena_review.md), and the [challenge log](../personas/round3_challenge_log.md). The simulated expert is not a real independent statistical audit or an additional HOKIEAI transcript. The source notebook still requires the team's **manual** 20-case raw-to-processed check. These pending verifications are not represented as completed.
 >
-> Before finalizing, align this draft with the [corrected methods](../docs/ROUND1_METHODS.md): the exact at/below flag and the disjoint ±0.1 display band are separate; Cycle 8 has a documented contact-frame change, while its contribution to the observed missingness drop is unknown. The hardship-first opening remains a proposed design choice to revisit after the actual later-round feedback.
+> The final design choices below are **team-proposed requirements based on these reviews**. They do not amount to a built dashboard, a causal analysis, a significance-ranked state comparison, or eligibility/staffing recommendations.
 
 ## Economic Hardship and Social Well-Being During Pandemic Recovery
 
@@ -13,7 +13,7 @@ The dashboard will help two groups make better decisions:
 - **State policy makers and workforce agencies** need to evaluate labor-market recovery.
 - **Community-service organizations** need to understand where financial hardship remains high and how many adults may be affected.
 
-The original Phase 1 plan focused mainly on whether lower unemployment was associated with lower hardship. Stakeholder feedback changed the focus. The dashboard should now help users answer four practical questions:
+The original Phase 1 plan focused mainly on whether lower unemployment was associated with lower hardship. Maya's Round 2 emphasis on genuine labor-market context and Jordan's Round 2 emphasis on household needs changed the focus; the simulated Elena Round 3 review further restricted what the claims may infer. The dashboard should now help users answer four practical questions:
 
 1. Has a state’s labor market recovered compared with 2019?
 2. Where is financial hardship still common, and how many adults does it affect?
@@ -22,7 +22,7 @@ The original Phase 1 plan focused mainly on whether lower unemployment was assoc
 
 The dashboard must also show how reliable each estimate is. Users should see sample size, confidence intervals, missingness, and suppression flags instead of seeing numbers without context.
 
-The dashboard will **not** use unemployment alone to rank need, prove causal relationships, diagnose mental-health conditions, or estimate actual service demand. It will show descriptive patterns that can support further investigation and planning.
+The dashboard will **not** use unemployment alone to rank need, prove causal relationships, diagnose mental-health conditions, or estimate actual service demand. It must not imply that the same HPS adults were followed over time, that state LAUS rates are respondents' unemployment statuses, or that approximate cycle-to-month alignment is exact. It will show descriptive patterns that can support further investigation and planning.
 
 ### 2. Audience
 
@@ -67,14 +67,14 @@ The prepared data contain:
 - 459 state-cycle rows in the HPS–LAUS join.
 - No unmatched records in the prepared join.
 - Survey-weighted estimates with 90% confidence intervals where available.
-- Effective sample sizes and suppression flags for reliability checks.
+- Valid respondent counts, Kish effective sample sizes and suppression flags for reliability checks. Display is suppressed where **valid n < 100** or **effective n < 30**; passing this project convention does not prove unbiasedness or sufficient precision. Virginia Cycle 9 recent worker/under-$50k hardship: **valid n=98**, **effective n≈49.23**, suppressed by the valid-n rule. The number 98 was mislabeled “effective n” in Maya's unmodified Round 2 conversation; this analyst correction does not change the conclusion.
 
 Important limitations:
 
 - HPS is an online, self-reported survey and may have nonresponse and coverage bias.
 - HPS and LAUS measure different concepts. Their join is at the state and time-period level, not the individual level.
 - HPS cycles do not correspond exactly to calendar months.
-- Cycle 8 has a noticeable change in missingness. The cause is not confirmed, so it must not be presented as a real change in demand.
+- Census documents a **Phase 4.2 contact-frame expansion to prepaid wireless numbers beginning in Cycle 8**. The effect of that change on estimates or the observed missingness decline is **not quantified or established**; cycle movements must not be presented as changes in service demand.
 - The results describe associations and changes. They do not prove that unemployment or COVID-19 caused hardship, loneliness, or anxiety.
 - The current data support state-level analysis, not reliable county- or service-area targeting.
 - Service requests, waitlists, referral capacity, and language-access data are outside the current scope.
@@ -93,17 +93,17 @@ Use a sortable state table and a connected-dot or dumbbell chart. Show:
 - Labor-force change.
 - Recovery category.
 
-Primary recovery rule:
+Primary **published unemployment-rate benchmark** rule (not proof that a state's employment, household welfare, or labor market fully recovered):
 
 - **At or below 2019:** 2024 rate minus 2019 rate is less than or equal to 0.
-- **Near tie:** the difference is within ±0.1 percentage points.
-- **Above 2019:** the difference is greater than 0.1 percentage points.
+- **Near-tie display band:** an independent, purely descriptive band for rate changes within ±0.1 percentage points. It overlaps the exact at/below flag for exact ties and small negative changes, and **does not redefine** the strict threshold.
+- **Above 2019 under the strict rule:** any positive published difference, including +0.1 percentage points; show the separate display band when applicable.
 
-The dashboard must explain that the rates are published to one decimal place. Arkansas and New Hampshire are exact ties under the primary rule. Virginia changes from 2.8% to 2.9%, so it does not meet the strict rule but belongs in the near-tie category.
+The dashboard must explain that the annual rates are **published unadjusted averages**, whereas 2020 monthly peaks are from a **seasonally adjusted monthly series**, and that the rates are published to one decimal place. Arkansas and New Hampshire are exact ties under the primary rule. Virginia changes from 2.8% to 2.9%, so it does not meet the strict rule but belongs in the near-tie category.
 
 #### B. Financial hardship as the main organizing measure
 
-The landing view should begin with hardship rather than unemployment. This reflects the community-service use case and the stakeholder feedback.
+The landing view should begin with hardship rather than unemployment. **This resolves a real Round 2 conflict:** Jordan wants immediate expense-hardship and affected-adult context, while Maya wants labor-market recovery foregrounded for policy analysis. The team chooses hardship first to support the cross-audience household-well-being task, with a prominent **labor-market recovery** tab/section and employment/labor-force change as its lead historical metrics. These are **not merged into a single need score**.
 
 Show hardship by state and HPS cycle, compared with the national estimate. Include:
 
@@ -119,7 +119,7 @@ A companion chart should show estimated adults affected in millions. The label m
 
 Show hardship for six work-and-income groups using a grouped bar chart or heatmap. Suppressed estimates must be labeled **suppressed**; they must never be changed to zero or silently removed.
 
-The main claim is that having a job does not eliminate financial hardship. Working adults with lower household income can still report substantial difficulty paying expenses.
+The main claim is that working **for pay/profit in the past seven days** does not eliminate reported household expense difficulty. This is not official BLS employment/unemployment status and the income groups are from **2023 household income**, not current individual earnings. Working adults with lower household income can still report substantial difficulty paying expenses.
 
 #### D. Hardship and social well-being
 
@@ -135,7 +135,7 @@ For Virginia, the corresponding results are approximately:
 - Loneliness: 25.7% versus 6.4%.
 - Anxiety: 33.8% versus 7.4%.
 
-These numbers must include confidence intervals and a clear note: they are descriptive associations, not causal effects or clinical diagnoses.
+These rounded point estimates must be accompanied by their own valid-response sample counts and **marginal 90% confidence intervals** and a clear note: they are descriptive associations, not causal effects or clinical diagnoses. The current exports **do not provide covariance-aware confidence intervals/tests for differences between groups**, so the interface must not declare those contrasts statistically significant based on marginal interval overlap or separation.
 
 #### E. Age and social support
 
@@ -159,13 +159,13 @@ The dashboard must allow users to:
 10. See effective n, confidence intervals, missingness, and suppression status for each selected estimate.
 11. Compare age groups at the national and state levels.
 12. Read a short definition and source note for every major chart.
-13. See a vertical Cycle 8 marker labeled: **“Possible survey change; cause unconfirmed.”**
+13. See a vertical Cycle 8 marker labeled: **“Documented Phase 4.2 contact-frame change; effects on estimates uncertain.”** It must not suggest that the frame change itself is unconfirmed.
 
 ### 6. Conflicts
 
-#### Hardship-first versus unemployment-first
+#### Hardship-first versus recovery-first
 
-Maya, the policy persona, preferred beginning with labor-market recovery. Jordan, the community-service persona, preferred beginning with hardship. The dashboard will open with hardship because it is closer to service-planning decisions. A prominent labor-market recovery section will remain available for policy users.
+Maya, the policy persona, preferred beginning with labor-market recovery and prioritizing **employment and labor-force changes since 2019** for a recovery view. Jordan, the community-service persona, preferred beginning with hardship and affected-adult context. The team opts for a **hardship-first public landing page** because it answers the cross-audience household-well-being purpose, while placing a prominent **recovery/context** section one navigation step away. Current seasonally adjusted unemployment should lead a *different* near-term labor-market conditions view. This explicit split avoids using an unemployment rate as a surrogate need score.
 
 #### State-level versus local geography
 
@@ -173,7 +173,7 @@ Jordan requested county- or service-area information, but the current public HPS
 
 #### Rankings versus uncertainty
 
-Maya requested state rankings. Rankings can make small differences look important, so the table will include confidence intervals, effective n, reliability flags, and the recovery-rule explanation. The dashboard will avoid presenting uncertain differences as definitive rankings.
+Maya supports **point-estimate ordering for triage**, not inferential rank. Jordan supports ordering for funder/partner context, not client targeting. The sortable table will include valid n, effective n, marginal 90% intervals, missingness, reliability flags and the published-rate rule. There will be **no numbered significance ranks, formal high/low significance tiers, or pairwise statistical tie labels** without appropriate covariance-aware tests. Interval overlap by itself is not such a test.
 
 #### Trends versus data-quality warnings
 
@@ -191,7 +191,7 @@ Both personas wanted cycle trends, but both noticed the Cycle 8 missingness chan
 5. **Work × income chart:** six groups, sample sizes, and suppression labels.
 6. **Loneliness and anxiety chart:** comparison by hardship group, with intervals and non-causal wording.
 7. **Reliability heatmap:** state-by-group view showing suppressed or low-sample estimates.
-8. **Cycle 8 annotation:** visible on all cycle-trend charts.
+8. **Cycle 8 annotation:** visible on all cycle-trend charts, with the documented frame change and uncertain effect made explicit.
 
 #### Must-have features
 
@@ -212,6 +212,37 @@ Both personas wanted cycle trends, but both noticed the Cycle 8 missingness chan
 - A state map, as long as it does not imply county-level precision.
 - Downloadable filtered data.
 - A toggle between the strict recovery rule and the ±0.1 percentage-point near-tie rule.
-- County or metropolitan-area indicators after privacy and data-quality review.
+- County or metropolitan-area indicators **only after sourcing fit-for-purpose geographically representative and privacy-appropriate data**; the current HPS extracts do not support general county/client-service-area targeting.
 - Community Bridge operational data, including service requests, waitlists, referral capacity, and language access.
 - Further respondent-level analysis of hardship and social well-being by income, if the raw data support valid intervals.
+
+
+### 9. Round 3 expert challenge outcome and claim policy
+
+The transparent [Dr. Elena Chen role-play](../personas/round3_elena_review.md) tested all five findings. Its challenges **did not** independently certify the notebook but imposed stricter requirements on the dashboard narrative:
+
+| Claim | Permitted interpretation | Prohibited overclaim |
+|---|---|---|
+| Q1 — labor-market | States' published 2019 vs 2024 LAUS rate benchmark, alongside employment/labor-force changes and 2020 monthly peaks | “State fully recovered” from a rate alone; treating adjusted monthly and unadjusted annual series as the same statistic |
+| Q2 — HPS/LAUS relationship | Weak **equal-jurisdiction descriptive** correlations in the selected cycles; unemployment rate not validated as a hardship proxy | Proof of no association, formal survey-designed inference from state-resampling bands, ecological inference or causation |
+| Q3 — work/income hardship | Weighted valid-answer hardship percentages conditional on seven-day recent work and **2023 household income** | Claim of unemployment status, precise current income/eligibility, or Virginia estimate where valid n=98 is suppressed |
+| Q4 — loneliness/anxiety | Weighted self-reported symptom and loneliness point rates by hardship category, with each marginal 90% interval | Clinical diagnosis, causal relationship, or formal significant difference without replicate-based contrasts |
+| Q5 — age/social outcomes | National age-by-cycle patterns and state comparisons **only where displayed reliability is adequate** | All states follow national pattern, suppressed groups have no need, or untested rank contrasts |
+
+Specific correction from expert review: the existing Cycle 8 wording “possible survey change; cause unconfirmed” was misleading: **the contact-frame change itself is documented**, while its effect on estimates/missingness is unknown. Pairwise statistical comparison, replicate count-total confidence intervals, missingness sensitivity, and independent replication of the 80-replicate variance calculation are not claimed completed.
+
+### 10. Required verification, acceptance criteria, and outstanding work
+
+**Before Phase 2 evidence is signed off:** have a team member manually inspect **at least 20** original-vs-processed rows from the private case comparison, against the original source codes, log reviewer/date/findings and any remediation; the documented 20/20 automated check **does not count as human verification**. If the group needs independent confidence-interval method certification, separately inspect replicate-weight code and official design factors; the present Round 3 role-play is not that certification.
+
+**Dashboard acceptance criteria once implemented:**
+1. Every HPS chart carries exact outcome/cycle/population, percentage units, marginal **90% interval**, outcome-specific valid n/effective n, missingness/reliability access, and a readable definition.
+2. Suppressed cells show “suppressed,” never zero; specifically Virginia Cycle 9 worker/under-$50k hardship is suppressed at **valid n=98**, despite effective n≈49.23.
+3. Recovery keeps strict published-rate at/below distinct from ±0.1-point display bands, and keeps annual unadjusted data distinct from adjusted monthly peaks.
+4. State-context HPS/LAUS comparisons disclose **approximate time matching** and do not imply personal or daily matching.
+5. **Documented Phase 4.2** frame change appears on relevant cycle series; no uninterrupted trend is asserted across that boundary.
+6. Adults-affected counts are clearly identified as weighted **point estimates**, not households, clients, unmet service demand, or error-bounded counts.
+7. No causal, diagnostic, significance-ranked, or county-specific service-allocation conclusion appears without additional valid analysis/data.
+8. Maya's recovery-oriented use and Jordan's hardship-first service context remain independently accessible without combining outcomes into a single score.
+
+**Recorded status:** Maya and Jordan Round 2 responses are archived; the Elena challenge is a **labeled AI simulation** with an evidence-based disposition log. No new real-source respondent audit, independent variance-code verification, or built dashboard is claimed. These are explicit boundaries, not silent omissions.
