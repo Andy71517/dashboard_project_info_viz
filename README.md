@@ -4,7 +4,7 @@ This is our university information visualization project. We are studying whethe
 
 We use **Census Household Pulse Survey (HPS), 2024 Cycles 1–9**, and **BLS Local Area Unemployment Statistics (LAUS), 2019–2024**. BRFSS was evaluated in Part 1 and remains optional. The dashboard has not been built yet.
 
-**Current stage:** [Round 1 closeout](personas/round1_completion.md) is complete with explicit request dispositions. Use the [Round 2 handoff](personas/round2_handoff.md) for the next persona conversation. The [review](personas/round1_review.md) and [new evidence pack](reports/round1_followup/state_profile_focus.html) record what was changed and what remains limited by the data.
+**Current stage (November 21, 2026):** [Round 1 closeout](personas/round1_completion.md) is complete. The team's **recorded** Maya and Jordan Round 2 conversations are synthesized in [Round 2 completion](personas/round2_completion.md); a **clearly labeled ChatGPT simulation** of Elena's skeptical Round 3 review, with evidence and unresolved challenges, is in [Round 3 review](personas/round3_elena_review.md) and [challenge log](personas/round3_challenge_log.md). The [Step 3 requirements](reports/step3_requirement.md) have been revised. **Outstanding:** team human review of 20 raw-to-processed cases; independent statistical audit only if stronger inferential claims are required. The dashboard itself has not been built.
 
 ## Start with the completed notebook
 
@@ -77,4 +77,4 @@ For optional local execution, use Python 3.12 and install `requirements.txt`; th
 
 ## AI use and review status
 
-AI helped research and inspect the original files, write and run preparation code, create the notebook and charts, and draft the documentation. Automated execution and comparison checks are recorded. The team's original Round 1 persona role-play replies are now recorded under `personas/`. This update implements their analytical follow-ups and explicitly records partial/unavailable requests. Manual review of the private 20-case comparison and approval of interpretation remain team tasks. No Round 2 replies, Round 3 challenge, or final dashboard requirements have been invented.
+AI helped research and inspect the original files, write and run preparation code, create the notebook and charts, and draft the documentation. Automated execution and comparison checks are recorded. The team's original Round 1 and actual Round 2 Maya/Jordan role-play replies are preserved under `personas/`. A subsequent **AI-simulated** Elena Round 3 challenge (not an independent HOKIEAI or human expert transcript) and revised requirements are linked above; these were explicitly labeled rather than presented as real independent verification. The project's 20 machine case checks passed, but **human review of the private 20-case raw/processed file remains pending**, as do independent variance-code checks and any novel covariance-aware statistical comparisons. No dashboard has been implemented.
